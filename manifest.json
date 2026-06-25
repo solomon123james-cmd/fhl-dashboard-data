@@ -1,0 +1,13 @@
+{
+  "name": "Faholo Staff Dashboard",
+  "short_name": "Faholo",
+  "description": "Camp Faholo staff dashboard — groups, meals, resources",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#273A40",
+  "theme_color": "#273A40",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
