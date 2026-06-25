@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#273A40">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Faholo">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="manifest" href="manifest.json">
+<title>Faholo Staff Dashboard</title>
+<style>
+  :root {
+    --dark:   #273A40;
+    --forest: #254B3A;
+    --sand:   #F8C28F;
+    --rust:   #A36E59;
+    --brown:  #5A442E;
+    --mist:   #BDA498;
+    --slate:  #46473E;
+    --linen:  #D2C6BC;
+    --bg:     #F4F1EE;
+    --text:   #2B2B2B;
+    --radius: 12px;
+    --tab-h:  60px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+
+  header {
+    background: var(--dark);
+    color: #fff;
+    padding: 14px 16px 10px;
+    padding-top: max(14px, env(safe-area-inset-top));
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 { font-size: 1.15rem; font-weight: 700; letter-spacing: .3px; }
+  header .subtitle { font-size: .72rem; opacity: .7; margin-top: 1px; }
+  #refresh-btn {
+    margin-left: auto;
+    background: rgba(255,255,255,.15);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: .8rem;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  #refresh-btn:active { opacity: .7; }
+
+  nav {
+    position: fixed;
+    bottom: 0;
+    left: 0; right: 0;
+    height: calc(var(--tab-h) + env(safe-area-inset-bottom));
+    background: var(--dark);
+    display: flex;
+    z-index: 10;
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
+  .tab-btn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background: none;
+    border: none;
+    color: rgba(255,255,255,.55);
+    font-size: .65rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-bottom: env(safe-area-inset-bottom);
+    transition: color .2s;
+  }
+  .tab-btn svg { width: 22px; height: 22px; }
+  .tab-btn.active { color: var(--sand); }
+
+  main {
+    overflow-y: auto;
+    height: calc(100dvh - 56px - var(--tab-h));
+    padding: 12px 12px calc(12px + env(safe-area-inset-bottom));
+  }
+
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  .card {
+    background: #fff;
+    border-radius: var(--radius);
+    padding: 14px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.07);
+  }
+  .card-title { font-size: .95rem; font-weight: 700; color: var(--dark); margin-bottom: 4px; }
+  .card-sub   { font-size: .78rem; color: var(--slate); margin-bottom: 2px; }
+  .card-notes { font-size: .8rem; color: var(--brown); background: #fdf6ed; border-left: 3px solid var(--sand); border-radius: 0 6px 6px 0; padding: 6px 8px; margin-top: 8px; }
+
+  .badges { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+  .badge {
+    font-size: .7rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 20px;
+    background: var(--linen);
+    color: var(--brown);
+  }
+  .badge.arriving  { background: #e8f4ec; color: #1e5c34; }
+  .badge.departing { background: #fdecea; color: #8b2020; }
+  .badge.active    { background: #eaf0fd; color: #1a3a8c; }
+
+  .date-divider {
+    font-size: .72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    color: var(--rust);
+    margin: 14px 0 6px;
+    padding-left: 2px;
+  }
+
+  .sub-tabs { display: flex; gap: 8px; margin-bottom: 12px; }
+  .sub-tab {
+    flex: 1;
+    padding: 8px;
+    border: 2px solid var(--linen);
+    border-radius: 8px;
+    background: #fff;
+    font-size: .78rem;
+    font-weight: 700;
+    color: var(--slate);
+    cursor: pointer;
+    text-align: center;
+  }
+  .sub-tab.active { border-color: var(--forest); color: var(--forest); background: #edf4f0; }
+
+  .meal-type {
+    display: inline-block;
+    font-size: .68rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-bottom: 4px;
+  }
+  .meal-Breakfast { background: #fff3e0; color: #7c4700; }
+  .meal-Lunch     { background: #e8f5e9; color: #1b5e20; }
+  .meal-Dinner    { background: #e8eaf6; color: #1a237e; }
+  .meal-Snacks    { background: #fce4ec; color: #880e4f; }
+
+  .empty { text-align: center; color: var(--mist); padding: 40px 20px; font-size: .9rem; }
+  .spinner {
+    width: 32px; height: 32px;
+    border: 3px solid var(--linen);
+    border-top-color: var(--forest);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+    margin: 40px auto 10px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  #notif-banner {
+    position: fixed;
+    top: 56px;
+    left: 0; right: 0;
+    background: var(--forest);
+    color: #fff;
+    font-size: .8rem;
+    padding: 10px 16px;
+    z-index: 20;
+    display: none;
+    align-items: center;
+    gap: 10px;
+  }
+  #notif-banner.show { display: flex; }
+  #notif-banner button { margin-left: auto; background: none; border: 1px solid rgba(255,255,255,.5); color: #fff; border-radius: 6px; padding: 3px 10px; font-size: .75rem; cursor: pointer; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>&#9978; Faholo Staff</h1>
+    <div class="subtitle" id="last-updated">Loading&hellip;</div>
+  </div>
+  <button id="refresh-btn" onclick="loadAll()">&#8635; Refresh</button>
+</header>
+
+<div id="notif-banner">
+  <span id="notif-text"></span>
+  <button onclick="document.getElementById('notif-banner').classList.remove('show')">&#10005;</button>
+</div>
+
+<nav>
+  <button class="tab-btn active" data-tab="groups" onclick="switchTab('groups')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+    Groups
+  </button>
+  <button class="tab-btn" data-tab="meals" onclick="switchTab('meals')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+    Meals
+  </button>
+  <button class="tab-btn" data-tab="resources" onclick="switchTab('resources')">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+    Resources
+  </button>
+</nav>
+
+<main>
+  <div id="panel-groups" class="panel active">
+    <div class="spinner"></div>
+  </div>
+  <div id="panel-meals" class="panel">
+    <div class="spinner"></div>
+  </div>
+  <div id="panel-resources" class="panel">
+    <div class="sub-tabs">
+      <button class="sub-tab active" onclick="switchSubTab('buildings')">&#127968; Buildings</button>
+      <button class="sub-tab" onclick="switchSubTab('activities')">&#127919; Activities</button>
+    </div>
+    <div id="sub-buildings"><div class="spinner"></div></div>
+    <div id="sub-activities" style="display:none"><div class="spinner"></div></div>
+  </div>
+</main>
+
+<script>
+const BASE = 'https://raw.githubusercontent.com/solomon123james-cmd/fhl-dashboard-data/main/data/';
+const FILES = {
+  groups:    BASE + 'General_Group_Info_Report.csv',
+  meals:     BASE + 'Meal_Info_Report.csv',
+  resources: BASE + 'Resource_Report.csv',
+};
+const TZ = 'America/New_York';
+const NTFY_TOPIC = 'faholo-camp-staff-2026';
+
+const BUILDINGS = new Set([
+  'Mezzanine','Island','Conference Room A','Conference Room B',
+  'Conference Cottage','Chalet','Antioch','Tabernacle','Yurt'
+]);
+
+function parseCSV(text) {
+  const lines = text.trim().split(/\r?\n/);
+  if (!lines.length) return [];
+  const headers = splitCSVLine(lines[0]).map(h => h.trim().replace(/^"|"$/g,''));
+  const rows = [];
+  for (let i = 1; i < lines.length; i++) {
+    const vals = splitCSVLine(lines[i]);
+    if (!vals.length) continue;
+    if (vals[0].replace(/^"|"$/g,'') === headers[0]) continue;
+    const obj = {};
+    headers.forEach((h, idx) => { obj[h] = (vals[idx] || '').trim().replace(/^"|"$/g,''); });
+    rows.push(obj);
+  }
+  return rows;
+}
+
+function splitCSVLine(line) {
+  const result = [];
+  let cur = '', inQ = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (c === '"') { inQ = !inQ; }
+    else if (c === ',' && !inQ) { result.push(cur); cur = ''; }
+    else { cur += c; }
+  }
+  result.push(cur);
+  return result;
+}
+
+function parseDate(str) {
+  if (!str) return null;
+  const d = new Date(str.includes('T') ? str : str.replace(' ', 'T'));
+  return isNaN(d) ? null : d;
+}
+
+function fmtDate(d) {
+  if (!d) return '';
+  return d.toLocaleDateString('en-US', { timeZone: TZ, weekday: 'short', month: 'short', day: 'numeric' });
+}
+
+function fmtTime(d) {
+  if (!d) return '';
+  return d.toLocaleTimeString('en-US', { timeZone: TZ, hour: 'numeric', minute: '2-digit' });
+}
+
+function todayET() {
+  const etStr = new Date().toLocaleDateString('en-CA', { timeZone: TZ });
+  return new Date(etStr + 'T00:00:00');
+}
+
+function addDays(d, n) {
+  const r = new Date(d); r.setDate(r.getDate() + n); return r;
+}
+
+function sameDay(a, b) {
+  return a.toLocaleDateString('en-CA', { timeZone: TZ }) === b.toLocaleDateString('en-CA', { timeZone: TZ });
+}
+
+function switchTab(name) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
+  document.getElementById('panel-' + name).classList.add('active');
+}
+
+function switchSubTab(name) {
+  document.querySelectorAll('.sub-tab').forEach((b, i) => {
+    b.classList.toggle('active', (i === 0 && name === 'buildings') || (i === 1 && name === 'activities'));
+  });
+  document.getElementById('sub-buildings').style.display  = name === 'buildings' ? '' : 'none';
+  document.getElementById('sub-activities').style.display = name === 'activities' ? '' : 'none';
+}
+
+let prevHashes = JSON.parse(localStorage.getItem('faholo-hashes') || '{}');
+
+async function hashStr(s) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+async function checkAndNotify(key, text) {
+  const hash = await hashStr(text);
+  if (prevHashes[key] && prevHashes[key] !== hash) {
+    showBanner('Data updated — ' + key + ' report has changed.');
+    try {
+      await fetch('https://ntfy.sh/' + NTFY_TOPIC, {
+        method: 'POST',
+        body: 'Faholo ' + key + ' report updated — open the dashboard to review changes.',
+        headers: { 'Title': 'Faholo ' + key + ' Updated', 'Priority': 'default', 'Tags': 'campfire' },
+      });
+    } catch (_) {}
+  }
+  prevHashes[key] = hash;
+  localStorage.setItem('faholo-hashes', JSON.stringify(prevHashes));
+}
+
+function showBanner(msg) {
+  document.getElementById('notif-text').textContent = msg;
+  document.getElementById('notif-banner').classList.add('show');
+}
+
+function esc(s) {
+  return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderGroups(rows) {
+  const now = new Date(), limit = addDays(todayET(), 14);
+  const map = {};
+  for (const row of rows) {
+    const key = row.OrgName + '||' + (row.ArrivalDate || '');
+    if (!map[key]) map[key] = { ...row, categories: [] };
+    if (row.AttendeeCategory) map[key].categories.push(row.AttendeeCategory);
+  }
+  const groups = Object.values(map).filter(g => {
+    const arr = parseDate(g.ArrivalDate), dep = parseDate(g.DepartureDate);
+    return arr && dep && dep >= todayET() && arr <= limit;
+  }).sort((a, b) => parseDate(a.ArrivalDate) - parseDate(b.ArrivalDate));
+
+  const panel = document.getElementById('panel-groups');
+  if (!groups.length) { panel.innerHTML = '<div class="empty">No groups in the next 14 days.</div>'; return; }
+
+  let html = '', lastDate = null;
+  for (const g of groups) {
+    const arr = parseDate(g.ArrivalDate), dep = parseDate(g.DepartureDate);
+    const dateKey = fmtDate(arr);
+    if (dateKey !== lastDate) { html += '<div class="date-divider">' + dateKey + '</div>'; lastDate = dateKey; }
+    const arriving  = sameDay(arr, now);
+    const departing = sameDay(dep, now);
+    const onSite    = arr <= now && dep >= now && !arriving;
+    const statusBadges =
+      (arriving  ? '<span class="badge arriving">Arriving today</span>'  : '') +
+      (departing ? '<span class="badge departing">Departing today</span>' : '') +
+      (onSite    ? '<span class="badge active">On site</span>' : '');
+    const catBadges = g.categories.map(c => '<span class="badge">' + esc(c) + '</span>').join('');
+    html +=
+      '<div class="card">' +
+        '<div class="card-title">' + esc(g.OrgName) + '</div>' +
+        '<div class="card-sub">Arrival: ' + fmtDate(arr) + (g.ArrivalTime ? ' ' + fmtTime(parseDate(g.ArrivalTime)) : '') + '</div>' +
+        '<div class="card-sub">Departure: ' + fmtDate(dep) + (g.DepartureTime ? ' ' + fmtTime(parseDate(g.DepartureTime)) : '') + '</div>' +
+        '<div class="badges">' + statusBadges + catBadges + '</div>' +
+      '</div>';
+  }
+  panel.innerHTML = html;
+}
+
+function renderMeals(rows) {
+  const now = new Date(), limit = addDays(todayET(), 14);
+  const visible = rows.filter(r => {
+    const d = parseDate(r.MealDateTime);
+    return d && d >= now && d <= limit;
+  }).sort((a, b) => parseDate(a.MealDateTime) - parseDate(b.MealDateTime));
+
+  const panel = document.getElementById('panel-meals');
+  if (!visible.length) { panel.innerHTML = '<div class="empty">No meals in the next 14 days.</div>'; return; }
+
+  let html = '', lastDate = null;
+  for (const m of visible) {
+    const dt = parseDate(m.MealDateTime), dateKey = fmtDate(dt);
+    if (dateKey !== lastDate) { html += '<div class="date-divider">' + dateKey + '</div>'; lastDate = dateKey; }
+    const typeKey = (m.MealTypeName || 'Other').replace(/\s+/g,'');
+    html +=
+      '<div class="card">' +
+        '<span class="meal-type meal-' + typeKey + '">' + esc(m.MealTypeName || 'Meal') + '</span>' +
+        '<div class="card-title">' + esc(m.OrgName) + '</div>' +
+        '<div class="card-sub">' + fmtTime(dt) + '</div>' +
+        (m.MealNotes ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>' : '') +
+      '</div>';
+  }
+  panel.innerHTML = html;
+}
+
+function renderResources(rows) {
+  const now = new Date(), limit = addDays(todayET(), 14);
+  const visible = rows.filter(r => {
+    const s = parseDate(r.ResStartDateTime), e = parseDate(r.ResEndDateTime);
+    return s && e && e >= now && s <= limit;
+  }).sort((a, b) => parseDate(a.ResStartDateTime) - parseDate(b.ResStartDateTime));
+
+  document.getElementById('sub-buildings').innerHTML  = renderResourceList(visible.filter(r =>  BUILDINGS.has(r.ResourceName)), 'buildings');
+  document.getElementById('sub-activities').innerHTML = renderResourceList(visible.filter(r => !BUILDINGS.has(r.ResourceName)), 'activities');
+}
+
+function renderResourceList(rows, label) {
+  if (!rows.length) return '<div class="empty">No ' + label + ' booked in the next 14 days.</div>';
+  let html = '', lastDate = null;
+  for (const r of rows) {
+    const s = parseDate(r.ResStartDateTime), e = parseDate(r.ResEndDateTime);
+    const dateKey = fmtDate(s);
+    if (dateKey !== lastDate) { html += '<div class="date-divider">' + dateKey + '</div>'; lastDate = dateKey; }
+    html +=
+      '<div class="card">' +
+        '<div class="card-title">' + esc(r.ResourceName) + '</div>' +
+        '<div class="card-sub">' + esc(r.BookingName) + '</div>' +
+        '<div class="card-sub">' + fmtTime(s) + ' &ndash; ' + fmtTime(e) + '</div>' +
+        (r.ResNotes ? '<div class="card-notes">&#128203; ' + esc(r.ResNotes) + '</div>' : '') +
+      '</div>';
+  }
+  return html;
+}
+
+async function fetchCSV(url) {
+  const r = await fetch(url + '?_=' + Date.now());
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  return r.text();
+}
+
+async function loadAll() {
+  const el = document.getElementById('last-updated');
+  el.textContent = 'Refreshing…';
+  document.getElementById('panel-groups').innerHTML   = '<div class="spinner"></div>';
+  document.getElementById('panel-meals').innerHTML    = '<div class="spinner"></div>';
+  document.getElementById('sub-buildings').innerHTML  = '<div class="spinner"></div>';
+  document.getElementById('sub-activities').innerHTML = '<div class="spinner"></div>';
+  try {
+    const [gText, mText, rText] = await Promise.all([
+      fetchCSV(FILES.groups), fetchCSV(FILES.meals), fetchCSV(FILES.resources)
+    ]);
+    await Promise.all([
+      checkAndNotify('Groups', gText),
+      checkAndNotify('Meals', mText),
+      checkAndNotify('Resources', rText),
+    ]);
+    renderGroups(parseCSV(gText));
+    renderMeals(parseCSV(mText));
+    renderResources(parseCSV(rText));
+    el.textContent = 'Updated ' + new Date().toLocaleString('en-US', {
+      timeZone: TZ, hour: 'numeric', minute: '2-digit', month: 'short', day: 'numeric'
+    }) + ' ET';
+  } catch (err) {
+    el.textContent = 'Error loading — check connection';
+    console.error(err);
+  }
+}
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').catch(() => {});
+}
+loadAll();
+setInterval(loadAll, 10 * 60 * 1000);
+</script>
+</body>
+</html>
