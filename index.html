@@ -256,32 +256,35 @@ const BUILDINGS = new Set([
 ]);
 
 function parseCSV(text) {
-  const lines = text.trim().split(/\r?\n/);
-  if (!lines.length) return [];
-  const headers = splitCSVLine(lines[0]).map(h => h.trim().replace(/^"|"$/g,''));
   const rows = [];
-  for (let i = 1; i < lines.length; i++) {
-    const vals = splitCSVLine(lines[i]);
-    if (!vals.length) continue;
-    if (vals[0].replace(/^"|"$/g,'') === headers[0]) continue;
+  let headers = null;
+  let i = 0;
+  while (i < text.length) {
+    const fields = [];
+    let field = '', inQ = false;
+    while (i < text.length) {
+      const c = text[i];
+      if (inQ) {
+        if (c === '"' && text[i+1] === '"') { field += '"'; i += 2; }
+        else if (c === '"') { inQ = false; i++; }
+        else { field += c; i++; }
+      } else {
+        if (c === '"') { inQ = true; i++; }
+        else if (c === ',') { fields.push(field); field = ''; i++; }
+        else if (c === '\r' && text[i+1] === '\n') { fields.push(field); i += 2; break; }
+        else if (c === '\n') { fields.push(field); i++; break; }
+        else { field += c; i++; }
+      }
+    }
+    if (i === text.length) fields.push(field);
+    if (fields.length === 1 && fields[0].trim() === '') continue;
+    if (!headers) { headers = fields.map(h => h.trim()); continue; }
+    if (fields[0].trim() === headers[0]) continue;
     const obj = {};
-    headers.forEach((h, idx) => { obj[h] = (vals[idx] || '').trim().replace(/^"|"$/g,''); });
+    headers.forEach((h, idx) => { obj[h] = (fields[idx] || '').trim(); });
     rows.push(obj);
   }
   return rows;
-}
-
-function splitCSVLine(line) {
-  const result = [];
-  let cur = '', inQ = false;
-  for (let i = 0; i < line.length; i++) {
-    const c = line[i];
-    if (c === '"') { inQ = !inQ; }
-    else if (c === ',' && !inQ) { result.push(cur); cur = ''; }
-    else { cur += c; }
-  }
-  result.push(cur);
-  return result;
 }
 
 function parseDate(str) {
