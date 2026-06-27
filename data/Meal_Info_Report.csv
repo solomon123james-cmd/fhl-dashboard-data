@@ -1,52 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-The Rock Church Fenton,Breakfast,"Jun 26, 2026 8:00:00 AM",,,GF | DF | Egg,"Kids
-3 -  GF Adults
-1 - DF Child
-Youth
-4 - GF Youth
-2 - Egg
-8 - Dairy Free
-2 - GF/DF"
-The Rock Church Fenton,Breakfast,"Jun 26, 2026 8:30:00 AM",,,GF | DF | Egg,"Kids
-3 -  GF Adults
-1 - DF Child
-Youth
-4 - GF Youth
-2 - Egg
-8 - Dairy Free
-2 - GF/DF"
-The Rock Church Fenton,Lunch,"Jun 26, 2026 12:00:00 PM",,,GF | DF | Egg,"Kids
-3 -  GF Adults
-1 - DF Child
-Youth
-4 - GF Youth
-2 - Egg
-8 - Dairy Free
-2 - GF/DF"
-The Rock Church Fenton,Lunch,"Jun 26, 2026 12:30:00 PM",,,GF | DF | Egg,"Kids
-3 -  GF Adults
-1 - DF Child
-Youth
-4 - GF Youth
-2 - Egg
-8 - Dairy Free
-2 - GF/DF"
-The Rock Church Fenton,Dinner,"Jun 26, 2026 5:00:00 PM",,,GF | DF | Egg,"Kids
-3 -  GF Adults
-1 - DF Child
-Youth
-4 - GF Youth
-2 - Egg
-8 - Dairy Free
-2 - GF/DF"
-The Rock Church Fenton,Dinner,"Jun 26, 2026 5:30:00 PM",,,GF | DF | Egg,"Kids
-3 -  GF Adults
-1 - DF Child
-Youth
-4 - GF Youth
-2 - Egg
-8 - Dairy Free
-2 - GF/DF"
 The Rock Church Fenton,Breakfast,"Jun 27, 2026 8:00:00 AM",,,GF | DF | Egg,"Kids
 3 -  GF Adults
 1 - DF Child
@@ -55,7 +7,6 @@ Youth
 2 - Egg
 8 - Dairy Free
 2 - GF/DF"
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 The Rock Church Fenton,Breakfast,"Jun 27, 2026 8:30:00 AM",,,GF | DF | Egg,"Kids
 3 -  GF Adults
 1 - DF Child
@@ -104,6 +55,7 @@ Youth
 2 - Egg
 8 - Dairy Free
 2 - GF/DF"
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 The Rock Church Fenton,Breakfast,"Jun 28, 2026 8:30:00 AM",,,GF | DF | Egg,"Kids
 3 -  GF Adults
 1 - DF Child
@@ -112,7 +64,6 @@ Youth
 2 - Egg
 8 - Dairy Free
 2 - GF/DF"
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 The Rock Church Fenton,Lunch,"Jun 28, 2026 12:00:00 PM",Pizza Party & Floats ,,GF | DF | Egg,"Kids
 3 -  GF Adults
 1 - DF Child
@@ -157,16 +108,19 @@ Hurdling Handicaps Speaking Ministries,Lunch,"Jun 29, 2026 12:00:00 PM",set up t
 Hurdling Handicaps Speaking Ministries,Dinner,"Jun 29, 2026 5:30:00 PM",Just for leadership ,,,
 Hurdling Handicaps Speaking Ministries,Breakfast,"Jun 30, 2026 8:30:00 AM",Just for leadership,,,
 Hurdling Handicaps Speaking Ministries,Lunch,"Jun 30, 2026 12:15:00 PM",Just for leadership,,,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Hurdling Handicaps Speaking Ministries,Dinner,"Jun 30, 2026 5:30:00 PM",,,,
 Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 1, 2026 8:30:00 AM",,,,
 Hurdling Handicaps Speaking Ministries,Lunch,"Jul 1, 2026 12:15:00 PM",Cut up watermelon to bring to Tabernacle.,,,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Lunch,"Jul 1, 2026 12:15:00 PM",25 men at 6 round tables in the back ,,,
 Hurdling Handicaps Speaking Ministries,Dinner,"Jul 1, 2026 5:30:00 PM",,,,
 Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 2, 2026 8:30:00 AM",,,,
 Hurdling Handicaps Speaking Ministries,Lunch,"Jul 2, 2026 12:15:00 PM",,,,
 Hurdling Handicaps Speaking Ministries,Dinner,"Jul 2, 2026 5:30:00 PM",,,,
+Hurdling Handicaps Speaking Ministries,Dinner,"Jul 2, 2026 6:00:00 PM",50 people at 9 round tables with blue tablecloth/6 Chairs at each table ,,,
 Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 3, 2026 8:30:00 AM",,,,
 Hurdling Handicaps Speaking Ministries,Lunch,"Jul 3, 2026 12:15:00 PM",,,,
+Hurdling Handicaps Speaking Ministries,Lunch,"Jul 3, 2026 12:15:00 PM",30 Women at 6 round tables with blue tablecloths/5 Chairs at each and 2 round tables without chairs.,,,
 Hurdling Handicaps Speaking Ministries,Dinner,"Jul 3, 2026 5:30:00 PM",,,,
 Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 4, 2026 8:30:00 AM",,,,
 Hurdling Handicaps Speaking Ministries,Lunch,"Jul 4, 2026 12:15:00 PM",,,,
@@ -188,6 +142,7 @@ DF -1 ",,
 Michigan Student Ministries ,Snacks,"Jul 6, 2026 8:00:00 PM",,"GF -5 
 GF /DF -1 
 DF -1 ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 7, 2026 8:30:00 AM",,"GF -5 
 GF /DF -1 
 DF -1 ",,
@@ -203,7 +158,6 @@ DF -1 ",,
 Michigan Student Ministries ,Breakfast,"Jul 8, 2026 8:30:00 AM",,"GF -5 
 GF /DF -1 
 DF -1 ",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Dinner,"Jul 8, 2026 5:30:00 PM",,"GF - 2 
 GF/DF -1
 DF- 5 
@@ -244,12 +198,18 @@ GF/DF -1
 DF- 5 
 Egg -1 
 Beef -1 ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Dinner,"Jul 10, 2026 5:30:00 PM",,"GF - 2 
 GF/DF -1
 DF- 5 
 Egg -1 
 Beef -1 ",,
 Michigan Student Ministries ,Snacks,"Jul 10, 2026 9:00:00 PM",,"GF - 2 
+GF/DF -1
+DF- 5 
+Egg -1 
+Beef -1 ",,
+Michigan Student Ministries ,Breakfast,"Jul 11, 2026 8:30:00 AM",,"GF - 2 
 GF/DF -1
 DF- 5 
 Egg -1 
