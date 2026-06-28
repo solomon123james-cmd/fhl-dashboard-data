@@ -1,47 +1,42 @@
 BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
-"Tab, Chalet -The Rock Church ",Outdoor Pool,"Jun 27, 2026 1:00:00 PM","Jun 27, 2026 5:00:00 PM",Rock MS Londyn 
-"Tab, Chalet -The Rock Church ",Lakefront ,"Jun 27, 2026 1:00:00 PM","Jun 27, 2026 5:00:00 PM",Rock Elem Conner and Cole 
-"Tab, Chalet -The Rock Church ",High Ropes,"Jun 27, 2026 1:00:00 PM","Jun 27, 2026 5:00:00 PM","Rock MS Michael, Josiah, Zander, Brogan,Heavenly"
-"Tab, Chalet -The Rock Church ",Zipline ,"Jun 27, 2026 1:00:00 PM","Jun 27, 2026 5:00:00 PM","Rock MS Zander, Heavenly, Selah"
-"Tab, Chalet -The Rock Church ",Swing by Choice,"Jun 27, 2026 1:00:00 PM","Jun 27, 2026 5:00:00 PM","Rock MS Selah, Caleb, Callie "
-"Tab, Chalet -The Rock Church ",Bonfire TAB,"Jun 27, 2026 7:00:00 PM","Jun 27, 2026 8:00:00 PM",Rock Elem
-"Tab, Chalet -The Rock Church ",Bonfire RV PARK,"Jun 27, 2026 9:00:00 PM","Jun 27, 2026 10:00:00 PM",Rock MS/HS
-"Tab, Chalet -The Rock Church ",Bonfire FHL WAY ,"Jun 27, 2026 9:00:00 PM","Jun 27, 2026 10:00:00 PM",Rock MS/HS
-"Tab, Chalet -The Rock Church ",Bonfire North Grove,"Jun 27, 2026 9:00:00 PM","Jun 27, 2026 10:00:00 PM",Rock MS/HS
-"Tab, Chalet -The Rock Church ",Bonfire TAB,"Jun 27, 2026 9:00:00 PM","Jun 27, 2026 10:00:00 PM",Rock MS/HS
+"Tab, Chalet -The Rock Church ",Outdoor Pool,"Jun 28, 2026 2:00:00 PM","Jun 28, 2026 5:00:00 PM",Rock MS/HS: Katie
 "Tab, Chalet -The Rock Church ",Swing by Choice,"Jun 28, 2026 2:00:00 PM","Jun 28, 2026 5:00:00 PM","Rock MS/HS: Taylor, Brogan, Selah "
 "Tab, Chalet -The Rock Church ",Zipline ,"Jun 28, 2026 2:00:00 PM","Jun 28, 2026 5:00:00 PM","Rock MS/HS: Josiah, Michael, Heavenly"
-"Tab, Chalet -The Rock Church ",Outdoor Pool,"Jun 28, 2026 2:00:00 PM","Jun 28, 2026 5:00:00 PM",Rock MS/HS: Katie
-Hurdling Handicaps Speaking Ministries 2026,Mezzanine,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",
-Hurdling Handicaps Speaking Ministries 2026,Island,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",
-Hurdling Handicaps Speaking Ministries 2026,Conference Room A,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",
-Hurdling Handicaps Speaking Ministries 2026,Antioch ,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",
-Hurdling Handicaps Speaking Ministries 2026,Conference Cottage,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",
-Hurdling Handicaps Speaking Ministries 2026,Tabernacle ,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",
-Hurdling Handicaps Speaking Ministries 2026,Chalet,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",
-Hurdling Handicaps Speaking Ministries 2026,Conference Room B,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",
+Hurdling Handicaps Speaking Ministries 2026,Mezzanine,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",As is
+Hurdling Handicaps Speaking Ministries 2026,Island,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM","30 chairs, 4 big tables – we will arrange"
+Hurdling Handicaps Speaking Ministries 2026,Conference Room A,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM","Lodge Conference A: Tarps on floor(crafts)
+
+Tables/chairs for 30 long ways
+
+3 extra tables against wall/no chairs"
+Hurdling Handicaps Speaking Ministries 2026,Antioch ,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",Just Clean
+Hurdling Handicaps Speaking Ministries 2026,Conference Cottage,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",Just Clean
+Hurdling Handicaps Speaking Ministries 2026,Tabernacle ,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM","Tables and chairs for 100 people classroom style
+- 2 tables in the back
+- 2 tables in lobby with 4 chairs"
+Hurdling Handicaps Speaking Ministries 2026,Chalet,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM",Classroom style for AV for 50 
+Hurdling Handicaps Speaking Ministries 2026,Conference Room B,"Jun 29, 2026 4:00:00 PM","Jul 4, 2026 10:00:00 AM"," 6 narrow tables with chairs
+
+4 tables (coffee shop/game room)
+"
 Hurdling Handicaps Speaking Ministries 2026,Bonfire TAB,"Jun 29, 2026 8:30:00 PM","Jun 29, 2026 10:00:00 PM",
-BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 1, 2026 1:30:00 PM","Jul 1, 2026 4:30:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,High Ropes,"Jul 1, 2026 1:30:00 PM","Jul 1, 2026 3:30:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Go Karts,"Jul 1, 2026 2:30:00 PM","Jul 1, 2026 3:30:00 PM",
+BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 2, 2026 1:30:00 PM","Jul 2, 2026 4:30:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Swing by Choice,"Jul 2, 2026 2:00:00 PM","Jul 2, 2026 4:00:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Go Karts,"Jul 2, 2026 2:00:00 PM","Jul 2, 2026 4:00:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Rock Wall ,"Jul 2, 2026 2:30:00 PM","Jul 2, 2026 4:00:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 2, 2026 9:00:00 PM","Jul 2, 2026 10:30:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Boats,"Jul 3, 2026 1:30:00 PM","Jul 3, 2026 4:30:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 3, 2026 1:30:00 PM","Jul 3, 2026 4:30:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Outdoor Pool,"Jul 3, 2026 1:30:00 PM","Jul 3, 2026 4:30:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Lakefront ,"Jul 3, 2026 1:30:00 PM","Jul 3, 2026 4:30:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Zipline ,"Jul 3, 2026 2:00:00 PM","Jul 3, 2026 4:00:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 3, 2026 2:00:00 PM","Jul 3, 2026 4:00:00 PM",
+Hurdling Handicaps Speaking Ministries 2026,Zipline ,"Jul 3, 2026 2:00:00 PM","Jul 3, 2026 4:00:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 3, 2026 8:30:00 PM","Jul 3, 2026 10:30:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Bonfire TAB,"Jul 3, 2026 8:30:00 PM","Jul 3, 2026 10:30:00 PM",
 Youth Camp 1,Mezzanine,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Island,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Yurt,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
-BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Youth Camp 1,Tabernacle ,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Conference Room A,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Antioch ,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
@@ -51,9 +46,19 @@ Youth Camp 1,Conference Room B,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM
 Youth Camp 2,Mezzanine,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
 Youth Camp 2,Island,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
 Youth Camp 2,Yurt,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
+BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Youth Camp 2,Tabernacle ,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
 Youth Camp 2,Conference Room A,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
 Youth Camp 2,Antioch ,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
 Youth Camp 2,Conference Cottage,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
 Youth Camp 2,Chalet,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
 Youth Camp 2,Conference Room B,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
+Youth Camp 3,Mezzanine,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
+Youth Camp 3,Island,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
+Youth Camp 3,Yurt,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
+Youth Camp 3,Tabernacle ,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
+Youth Camp 3,Conference Room A,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
+Youth Camp 3,Antioch ,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
+Youth Camp 3,Conference Cottage,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
+Youth Camp 3,Chalet,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
+Youth Camp 3,Conference Room B,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
