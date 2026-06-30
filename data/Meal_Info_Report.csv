@@ -1,40 +1,921 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-The Rock Church Fenton,Breakfast,"Jun 29, 2026 8:30:00 AM",,,GF | DF | Egg,"Kids
-3 -  GF Adults
-1 - DF Child
-Youth
-4 - GF Youth
-2 - Egg
-8 - Dairy Free
-2 - GF/DF"
-The Rock Church Fenton,Lunch,"Jun 29, 2026 11:30:00 AM",,,GF | DF | Egg,"Kids
-3 -  GF Adults
-1 - DF Child
-Youth
-4 - GF Youth
-2 - Egg
-8 - Dairy Free
-2 - GF/DF"
-Hurdling Handicaps Speaking Ministries,Lunch,"Jun 29, 2026 12:00:00 PM",set up team ,,,
-Hurdling Handicaps Speaking Ministries,Dinner,"Jun 29, 2026 5:30:00 PM",Just for leadership ,,,
-Hurdling Handicaps Speaking Ministries,Breakfast,"Jun 30, 2026 8:30:00 AM",Just for leadership,,,
-Hurdling Handicaps Speaking Ministries,Lunch,"Jun 30, 2026 12:15:00 PM",Just for leadership,,,
-Hurdling Handicaps Speaking Ministries,Dinner,"Jun 30, 2026 5:30:00 PM",,,,
-Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 1, 2026 8:30:00 AM",,,,
-Hurdling Handicaps Speaking Ministries,Lunch,"Jul 1, 2026 12:15:00 PM",Cut up watermelon to bring to Tabernacle.,,,
-Hurdling Handicaps Speaking Ministries,Lunch,"Jul 1, 2026 12:15:00 PM",25 men at 6 round tables in the back ,,,
-Hurdling Handicaps Speaking Ministries,Dinner,"Jul 1, 2026 5:30:00 PM",,,,
-Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 2, 2026 8:30:00 AM",,,,
-Hurdling Handicaps Speaking Ministries,Lunch,"Jul 2, 2026 12:15:00 PM",,,,
-Hurdling Handicaps Speaking Ministries,Dinner,"Jul 2, 2026 5:00:00 PM",,,,
-Hurdling Handicaps Speaking Ministries,Dinner,"Jul 2, 2026 6:00:00 PM",50 people at 9 round tables with blue tablecloth/6 Chairs at each table ,,,
-Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 3, 2026 8:30:00 AM",,,,
-Hurdling Handicaps Speaking Ministries,Lunch,"Jul 3, 2026 12:15:00 PM",,,,
-Hurdling Handicaps Speaking Ministries,Lunch,"Jul 3, 2026 12:15:00 PM",30 Women at 6 round tables with blue tablecloths/5 Chairs at each and 2 round tables without chairs.,,,
+Hurdling Handicaps Speaking Ministries,Breakfast,"Jun 30, 2026 8:30:00 AM",Just for leadership,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Hurdling Handicaps Speaking Ministries,Dinner,"Jul 3, 2026 5:30:00 PM",,,,
-Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 4, 2026 8:30:00 AM",,,,
-Hurdling Handicaps Speaking Ministries,Lunch,"Jul 4, 2026 12:15:00 PM",,,,
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Lunch,"Jun 30, 2026 12:15:00 PM",Just for leadership,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Dinner,"Jun 30, 2026 5:30:00 PM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 1, 2026 8:30:00 AM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Lunch,"Jul 1, 2026 12:15:00 PM",Cut up watermelon to bring to Tabernacle.,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Lunch,"Jul 1, 2026 12:15:00 PM",25 men at 6 round tables in the back ,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Dinner,"Jul 1, 2026 5:30:00 PM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 2, 2026 8:30:00 AM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Lunch,"Jul 2, 2026 12:15:00 PM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Dinner,"Jul 2, 2026 5:00:00 PM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Dinner,"Jul 2, 2026 6:00:00 PM",50 people at 9 round tables with blue tablecloth/6 Chairs at each table ,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 3, 2026 8:30:00 AM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Lunch,"Jul 3, 2026 12:15:00 PM",30 Women at 6 round tables with blue tablecloths/5 Chairs at each and 2 round tables without chairs.,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Lunch,"Jul 3, 2026 12:15:00 PM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Dinner,"Jul 3, 2026 5:30:00 PM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Breakfast,"Jul 4, 2026 8:30:00 AM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Hurdling Handicaps Speaking Ministries,Lunch,"Jul 4, 2026 12:15:00 PM",,"All meals must be peanut and tree nut free. Highlighted names can eat from
+the regular food line.
+1. Molly Mitchener GF (Celiac) separate plate before food line, no
+cross contamination allowed (Severe health consequences)
+2. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+3. Gavin Dunning GF
+4. Malachi Lindell (Severe anaphylaxis) Peanuts/All Tree Nuts,
+Sunflower seeds Walnuts/cashews are deathly
+5. Craig Henderson Medical Keto-Genic Diet (high fat / high
+protein, low carbs). His buddy, Dave, knows a lot.
+6. Christine Spencer GF
+7. Lexi Spencer GF
+8. Kayla Selph GF
+10. Toney Selph GF
+11. Scott Priesler GF
+12. Kelsey Priesler GF
+13. Janice McDougall GF
+14. Alexa Daulton Severe peanut allergy (anaphylaxis)
+15. Linda Schoonover GF, Lactose, Pork, needs High protein, high iron
+(eggs, salad, and berries are good)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"16. Hannah Winters GF, allergies to dairy, corn, peanuts, cashews,
+mushrooms, black beans, pineapple
+17. Sue Zachert GF, allergies to dairy, corn, peanuts, cashews,
+Easier to detect -kiwi, mango, cantaloupe, hemp
+18. Hannah Gould GF, dairy
+20. Greg McDougall tree nuts
+21. David Thal Shellfish
+22. Brandy Hewines GF
+ 23. Pamela Wentzel Watch my carbs intake
+24. Carlton Selph V GF
+ 25. Jimmy Pugsley Diabetic diet
+ 26. John Yarina John cannot have anything with Nutrasweet, yellow food dye
+#5, grape juice, gooey cheese like cheese that is put on nachos.
+ 27.Matthew Sornson GF and Dairy-allergy
+ 28. Matt Sornson GF
+ 29. Tabitha Zachert GF
+ 30. Randy Dunning GF
+ 31. Jessica Koch Nut Free; Lactose Free
+ 32. Dahlia Taylor Soy Free, Lactose Free, No Corn Syrup, No Cheddar Cheese
+ 33. Linda Hanna No Fish-Derived Products (Including ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+,,,,"Shell-Fish) Fish, Tropical
+Fruits, Cumin
+ 34. Josiah Fogarty No Dairy
+ 35. Christina Muco GF
+ 36. Debbie Williams Diabetes diet - low/no sugar foods
+ 37. William Harpootlian very picky eater – limited diet of pizza, grilled cheese,
+pb&j
+ 38. Matthew Harpootlian – very picky eater
+ 39. Marie J – sugar free ",,
 Michigan Student Ministries ,Lunch,"Jul 5, 2026 12:00:00 PM",Welcome Hot Dog Lunch This goes 12-2,,,
 Michigan Student Ministries ,Dinner,"Jul 5, 2026 5:30:00 PM",,,,
 Michigan Student Ministries ,Snacks,"Jul 5, 2026 9:00:00 PM",,,,
@@ -57,6 +938,7 @@ GF/DF -1
 DF- 5 
 Egg -1 
 Beef -1 ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Snacks,"Jul 8, 2026 9:00:00 PM",,"GF - 2 
 GF/DF -1
 DF- 5 
@@ -67,7 +949,6 @@ GF/DF -1
 DF- 5 
 Egg -1 
 Beef -1 ",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Lunch,"Jul 9, 2026 12:00:00 PM",,"GF - 2 
 GF/DF -1
 DF- 5 
@@ -111,6 +992,7 @@ Beef -1 ",,
 Michigan Student Ministries ,Dinner,"Jul 12, 2026 5:30:00 AM",,"DF-3
 GF-4
 Seasme - 2",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Lunch,"Jul 12, 2026 12:00:00 PM",Welcome Hot Dog Lunch this goes from12-2 ,"DF-3
 GF-4
 Seasme - 2",,
@@ -123,10 +1005,21 @@ Seasme - 2",,
 Michigan Student Ministries ,Lunch,"Jul 13, 2026 12:00:00 PM",,"DF-3
 GF-4
 Seasme - 2",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Dinner,"Jul 13, 2026 5:30:00 PM",,"DF-3
 GF-4
 Seasme - 2",,
 Michigan Student Ministries ,Snacks,"Jul 13, 2026 9:00:00 PM",,"DF-3
+GF-4
+Seasme - 2",,
+Michigan Student Ministries ,Breakfast,"Jul 14, 2026 8:30:00 AM",,"DF-3
+GF-4
+Seasme - 2",,
+Michigan Student Ministries ,Lunch,"Jul 14, 2026 12:00:00 PM",,"DF-3
+GF-4
+Seasme - 2",,
+Michigan Student Ministries ,Dinner,"Jul 14, 2026 5:30:00 PM",,"DF-3
+GF-4
+Seasme - 2",,
+Michigan Student Ministries ,Snacks,"Jul 14, 2026 8:30:00 PM",,"DF-3
 GF-4
 Seasme - 2",,
