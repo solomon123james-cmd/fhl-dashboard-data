@@ -155,7 +155,7 @@
   .meal-Lunch     { background: #e8f5e9; color: #1b5e20; }
   .meal-Dinner    { background: #e8eaf6; color: #1a237e; }
   .meal-Snacks    { background: #fce4ec; color: #880e4f; }
-    /* ── Allergy bubbles ── */
+
   .allergy-bubbles { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
   .allergy-bubble { font-size: .72rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; }
   .allergy-GF   { background: #e8f5e9; color: #1b5e20; }
@@ -402,9 +402,9 @@ function renderGroups(rows) {
   panel.innerHTML = html;
 }
 
-function parseAllergies(dr, mi) {
+function parseAllergies(dr, fa, mi) {
   const totals = {};
-  const src = (dr || mi || '').trim();
+  const src = (dr || fa || mi || '').trim();
   if (!src) return totals;
   for (const line of src.split(/\n/)) {
     const t = line.trim();
@@ -434,13 +434,15 @@ function allergyClass(k) {
 function allergyLabel(k) {
   return {GF:'Gluten Free',DF:'Dairy Free','GF/DF':'GF + DF'}[k] || k;
 }
-function renderAllergyBubbles(dr, mi) {
-  const totals = parseAllergies(dr, mi);
+function renderAllergyBubbles(dr, fa, mi) {
+  const totals = parseAllergies(dr, fa, mi);
   const order = ['GF','DF','GF/DF','Egg','Beef'];
   const keys = Object.keys(totals).sort((a,b) => (order.indexOf(a)<0?99:order.indexOf(a))-(order.indexOf(b)<0?99:order.indexOf(b)));
   if (!keys.length) return '';
   return '<div class="allergy-bubbles">' + keys.map(k => `<span class="allergy-bubble ${allergyClass(k)}">${allergyLabel(k)}: ${totals[k]}</span>`).join('') + '</div>';
-}function renderMeals(rows) {
+}
+
+function renderMeals(rows) {
   const now = new Date(), limit = addDays(todayET(), 14);
   const visible = rows.filter(r => {
     const d = parseDate(r.MealDateTime);
@@ -460,9 +462,9 @@ function renderAllergyBubbles(dr, mi) {
         '<span class="meal-type meal-' + typeKey + '">' + esc(m.MealTypeName || 'Meal') + '</span>' +
         '<div class="card-title">' + esc(m.OrgName) + '</div>' +
         '<div class="card-sub">' + fmtTime(dt) + '</div>' +
-              (m.MealNotes ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>' : '') +
-        renderAllergyBubbles(m.DietaryRequests, m.MealInstructions) +
-     '</div>';
+        (m.MealNotes ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>' : '') +
+        renderAllergyBubbles(m.DietaryRequests, m.FoodAllergies, m.MealInstructions) +
+      '</div>';
   }
   panel.innerHTML = html;
 }
