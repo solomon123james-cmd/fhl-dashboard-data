@@ -1,12 +1,4 @@
 BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
-Hurdling Handicaps Speaking Ministries 2026,High Ropes,"Jul 1, 2026 1:30:00 PM","Jul 1, 2026 3:30:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 1, 2026 1:30:00 PM","Jul 1, 2026 4:30:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Go Karts,"Jul 1, 2026 2:30:00 PM","Jul 1, 2026 3:30:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 2, 2026 1:30:00 PM","Jul 2, 2026 4:30:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Swing by Choice,"Jul 2, 2026 2:00:00 PM","Jul 2, 2026 4:00:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Go Karts,"Jul 2, 2026 2:00:00 PM","Jul 2, 2026 4:00:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Rock Wall ,"Jul 2, 2026 2:00:00 PM","Jul 2, 2026 4:00:00 PM",
-Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 2, 2026 9:00:00 PM","Jul 2, 2026 10:30:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 3, 2026 1:30:00 PM","Jul 3, 2026 4:30:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 3, 2026 1:30:00 PM","Jul 3, 2026 4:30:00 PM",
 Hurdling Handicaps Speaking Ministries 2026,Zipline ,"Jul 3, 2026 2:00:00 PM","Jul 3, 2026 4:00:00 PM",
@@ -14,14 +6,32 @@ Hurdling Handicaps Speaking Ministries 2026,Bonfire TAB,"Jul 3, 2026 8:30:00 PM"
 Hurdling Handicaps Speaking Ministries 2026,Indoor Pool and Hot tub,"Jul 3, 2026 8:30:00 PM","Jul 3, 2026 10:30:00 PM",
 Youth Camp 1,Mezzanine,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Island,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
-Youth Camp 1,Yurt,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Tabernacle ,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Conference Room A,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Antioch ,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Conference Cottage,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
 Youth Camp 1,Chalet,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
-BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Youth Camp 1,Conference Room B,"Jul 5, 2026 11:00:00 AM","Jul 8, 2026 2:00:00 PM",
+Youth Camp 1,Indoor Pool and Hot tub,"Jul 5, 2026 12:00:00 PM","Jul 5, 2026 2:00:00 PM",Swim Test
+Youth Camp 1,Swing by Choice,"Jul 5, 2026 4:30:00 PM","Jul 5, 2026 5:30:00 PM","Michael, Brogan, Callie"
+Youth Camp 1,Outdoor Pool,"Jul 5, 2026 4:30:00 PM","Jul 5, 2026 5:30:00 PM",
+Youth Camp 1,Lakefront ,"Jul 5, 2026 4:30:00 PM","Jul 5, 2026 5:30:00 PM",Conner and Katie or Taylor
+Youth Camp 1,Clay Gym,"Jul 5, 2026 4:30:00 PM","Jul 5, 2026 5:30:00 PM",
+Youth Camp 1,High Ropes,"Jul 5, 2026 4:30:00 PM","Jul 5, 2026 5:30:00 PM","Josiah, Selah, Caleb, Zander, Heavenly"
+Youth Camp 1,Indoor Pool and Hot tub,"Jul 5, 2026 4:30:00 PM","Jul 5, 2026 5:30:00 PM",Londyn
+Youth Camp 1,High Ropes,"Jul 6, 2026 3:30:00 PM","Jul 6, 2026 5:30:00 PM",
+Youth Camp 1,Lakefront ,"Jul 6, 2026 3:30:00 PM","Jul 6, 2026 5:30:00 PM",
+Youth Camp 1,Outdoor Pool,"Jul 6, 2026 3:30:00 PM","Jul 6, 2026 5:30:00 PM",
+Youth Camp 1,Clay Gym,"Jul 6, 2026 3:30:00 PM","Jul 6, 2026 5:30:00 PM",
+Youth Camp 1,Swing by Choice,"Jul 6, 2026 3:30:00 PM","Jul 6, 2026 5:30:00 PM",
+BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
+Youth Camp 1,Indoor Pool and Hot tub,"Jul 6, 2026 3:30:00 PM","Jul 6, 2026 5:30:00 PM",
+Youth Camp 1,Swing by Choice,"Jul 7, 2026 3:30:00 PM","Jul 7, 2026 5:30:00 PM",
+Youth Camp 1,Outdoor Pool,"Jul 7, 2026 3:30:00 PM","Jul 7, 2026 5:30:00 PM",
+Youth Camp 1,Lakefront ,"Jul 7, 2026 3:30:00 PM","Jul 7, 2026 5:30:00 PM",
+Youth Camp 1,Clay Gym,"Jul 7, 2026 3:30:00 PM","Jul 7, 2026 5:30:00 PM",
+Youth Camp 1,High Ropes,"Jul 7, 2026 3:30:00 PM","Jul 7, 2026 5:30:00 PM",
+Youth Camp 1,Indoor Pool and Hot tub,"Jul 7, 2026 3:30:00 PM","Jul 7, 2026 5:30:00 PM",
 Youth Camp 2,Mezzanine,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
 Youth Camp 2,Island,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
 Youth Camp 2,Yurt,"Jul 8, 2026 2:30:00 PM","Jul 11, 2026 2:00:00 PM",
@@ -42,11 +52,11 @@ Youth Camp 3,Chalet,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
 Youth Camp 3,Conference Room B,"Jul 12, 2026 11:00:00 AM","Jul 15, 2026 2:00:00 PM",
 Youth Camp 4,Mezzanine,"Jul 15, 2026 11:00:00 AM","Jul 18, 2026 2:00:00 PM",
 Youth Camp 4,Island,"Jul 15, 2026 11:00:00 AM","Jul 18, 2026 2:00:00 PM",
+BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Youth Camp 4,Yurt,"Jul 15, 2026 11:00:00 AM","Jul 18, 2026 2:00:00 PM",
 Youth Camp 4,Tabernacle ,"Jul 15, 2026 11:00:00 AM","Jul 18, 2026 2:00:00 PM",
 Youth Camp 4,Conference Room A,"Jul 15, 2026 11:00:00 AM","Jul 18, 2026 2:00:00 PM",
 Youth Camp 4,Antioch ,"Jul 15, 2026 11:00:00 AM","Jul 18, 2026 2:00:00 PM",
 Youth Camp 4,Conference Cottage,"Jul 15, 2026 11:00:00 AM","Jul 18, 2026 2:00:00 PM",
 Youth Camp 4,Chalet,"Jul 15, 2026 11:00:00 AM","Jul 18, 2026 2:00:00 PM",
-BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Youth Camp 4,Conference Room B,"Jul 15, 2026 11:00:00 AM","Jul 18, 2026 2:00:00 PM",
