@@ -1,36 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Breakfast,"Jul 6, 2026 8:15:00 AM", Put out boxes and line should be set. Eating in Old Dining Hall,"GF - 4
-DF - 7","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2"
-Michigan Student Ministries ,Lunch,"Jul 6, 2026 12:00:00 PM",,"GF - 4
-DF - 7","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2"
-Michigan Student Ministries ,Dinner,"Jul 6, 2026 5:30:00 PM",,"GF - 4
-DF - 7","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2"
-Michigan Student Ministries ,Snacks,"Jul 6, 2026 9:30:00 PM",Only Solomon,"GF - 4
-DF - 7","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2"
 Michigan Student Ministries ,Breakfast,"Jul 7, 2026 8:15:00 AM",Eating in the old dining hall.,"GF - 4
 DF - 7","Artificial Food Dye - 1
 Gluten - 4
@@ -78,7 +46,6 @@ GF/DF -1
 DF- 5 
 Egg -1 
 Beef -1 ",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 9, 2026 8:30:00 AM",,"GF - 2 
 GF/DF -1
 DF- 5 
@@ -99,6 +66,7 @@ GF/DF -1
 DF- 5 
 Egg -1 
 Beef -1 ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 10, 2026 8:30:00 AM",,"GF - 2 
 GF/DF -1
 DF- 5 
@@ -133,7 +101,6 @@ Seasme - 2",,
 Michigan Student Ministries ,Snacks,"Jul 12, 2026 8:30:00 PM",,"DF-3
 GF-4
 Seasme - 2",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 13, 2026 8:30:00 AM",,"DF-3
 GF-4
 Seasme - 2",,
@@ -155,6 +122,7 @@ Seasme - 2",,
 Michigan Student Ministries ,Dinner,"Jul 14, 2026 5:30:00 PM",,"DF-3
 GF-4
 Seasme - 2",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Snacks,"Jul 14, 2026 8:30:00 PM",,"DF-3
 GF-4
 Seasme - 2",,
@@ -188,7 +156,6 @@ Seasme -2 ",,
 Michigan Student Ministries ,Lunch,"Jul 17, 2026 12:00:00 PM",,"GF- 8
 DF- 1
 Seasme -2 ",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Dinner,"Jul 17, 2026 5:30:00 PM",,"GF- 8
 DF- 1
 Seasme -2 ",,
@@ -208,6 +175,7 @@ Sesame- 1
 GF- 6
 DF- 5
 ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Snacks,"Jul 19, 2026 9:00:00 PM",,"Gf/DF -3
 Sesame- 1
 GF- 6
@@ -229,6 +197,26 @@ GF- 6
 DF- 5
 ",,
 Michigan Student Ministries ,Snacks,"Jul 20, 2026 9:00:00 PM",,"Gf/DF -3
+Sesame- 1
+GF- 6
+DF- 5
+",,
+Michigan Student Ministries ,Breakfast,"Jul 21, 2026 8:00:00 AM",,"Gf/DF -3
+Sesame- 1
+GF- 6
+DF- 5
+",,
+Michigan Student Ministries ,Lunch,"Jul 21, 2026 12:00:00 PM",,"Gf/DF -3
+Sesame- 1
+GF- 6
+DF- 5
+",,
+Michigan Student Ministries ,Dinner,"Jul 21, 2026 5:00:00 PM",,"Gf/DF -3
+Sesame- 1
+GF- 6
+DF- 5
+",,
+Michigan Student Ministries ,Snacks,"Jul 21, 2026 9:00:00 PM",,"Gf/DF -3
 Sesame- 1
 GF- 6
 DF- 5
