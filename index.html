@@ -28,7 +28,6 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
 
-  /* ── Header ── */
   header {
     background: var(--dark);
     color: #fff;
@@ -55,7 +54,6 @@
   }
   #refresh-btn:active { opacity: .7; }
 
-  /* ── Tab bar ── */
   nav {
     position: fixed;
     bottom: 0;
@@ -87,18 +85,15 @@
   .tab-btn svg { width: 22px; height: 22px; }
   .tab-btn.active { color: var(--sand); }
 
-  /* ── Main scroll area ── */
   main {
     overflow-y: auto;
     height: calc(100dvh - 56px - var(--tab-h));
     padding: 12px 12px calc(12px + env(safe-area-inset-bottom));
   }
 
-  /* ── Panels ── */
   .panel { display: none; }
   .panel.active { display: block; }
 
-  /* ── Cards ── */
   .card {
     background: #fff;
     border-radius: var(--radius);
@@ -110,7 +105,6 @@
   .card-sub   { font-size: .78rem; color: var(--slate); margin-bottom: 2px; }
   .card-notes { font-size: .8rem; color: var(--brown); background: #fdf6ed; border-left: 3px solid var(--sand); border-radius: 0 6px 6px 0; padding: 6px 8px; margin-top: 8px; }
 
-  /* ── Badges ── */
   .badges { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
   .badge {
     font-size: .7rem;
@@ -124,7 +118,6 @@
   .badge.departing { background: #fdecea; color: #8b2020; }
   .badge.active    { background: #eaf0fd; color: #1a3a8c; }
 
-  /* ── Date dividers ── */
   .date-divider {
     font-size: .72rem;
     font-weight: 700;
@@ -135,12 +128,7 @@
     padding-left: 2px;
   }
 
-  /* ── Sub-tabs (Resources) ── */
-  .sub-tabs {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 12px;
-  }
+  .sub-tabs { display: flex; gap: 8px; margin-bottom: 12px; }
   .sub-tab {
     flex: 1;
     padding: 8px;
@@ -155,7 +143,6 @@
   }
   .sub-tab.active { border-color: var(--forest); color: var(--forest); background: #edf4f0; }
 
-  /* ── Meal type pill ── */
   .meal-type {
     display: inline-block;
     font-size: .68rem;
@@ -168,23 +155,16 @@
   .meal-Lunch     { background: #e8f5e9; color: #1b5e20; }
   .meal-Dinner    { background: #e8eaf6; color: #1a237e; }
   .meal-Snacks    { background: #fce4ec; color: #880e4f; }
-
-  /* ── Allergy bubbles ── */
+    /* ── Allergy bubbles ── */
   .allergy-bubbles { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
-  .allergy-bubble {
-    font-size: .72rem;
-    font-weight: 700;
-    padding: 4px 10px;
-    border-radius: 20px;
-  }
+  .allergy-bubble { font-size: .72rem; font-weight: 700; padding: 4px 10px; border-radius: 20px; }
   .allergy-GF   { background: #e8f5e9; color: #1b5e20; }
   .allergy-DF   { background: #e3f2fd; color: #0d47a1; }
   .allergy-GFDF { background: #f3e5f5; color: #6a1b9a; }
   .allergy-Egg  { background: #fff8e1; color: #e65100; }
   .allergy-Beef { background: #ffebee; color: #b71c1c; }
-  .allergy-misc { background: var(--linen); color: var(--brown); }
+  .allergy-misc { background: #D2C6BC; color: #5A442E; }
 
-  /* ── Empty / loading ── */
   .empty { text-align: center; color: var(--mist); padding: 40px 20px; font-size: .9rem; }
   .spinner {
     width: 32px; height: 32px;
@@ -196,7 +176,6 @@
   }
   @keyframes spin { to { transform: rotate(360deg); } }
 
-  /* ── Notification banner ── */
   #notif-banner {
     position: fixed;
     top: 56px;
@@ -245,35 +224,23 @@
 </nav>
 
 <main>
-  <!-- Groups -->
   <div id="panel-groups" class="panel active">
     <div class="spinner"></div>
-    <div class="empty">Loading groups&hellip;</div>
   </div>
-
-  <!-- Meals -->
   <div id="panel-meals" class="panel">
     <div class="spinner"></div>
-    <div class="empty">Loading meals&hellip;</div>
   </div>
-
-  <!-- Resources -->
   <div id="panel-resources" class="panel">
     <div class="sub-tabs">
       <button class="sub-tab active" onclick="switchSubTab('buildings')">&#127968; Buildings</button>
       <button class="sub-tab" onclick="switchSubTab('activities')">&#127919; Activities</button>
     </div>
-    <div id="sub-buildings">
-      <div class="spinner"></div>
-    </div>
-    <div id="sub-activities" style="display:none">
-      <div class="spinner"></div>
-    </div>
+    <div id="sub-buildings"><div class="spinner"></div></div>
+    <div id="sub-activities" style="display:none"><div class="spinner"></div></div>
   </div>
 </main>
 
 <script>
-// ── Constants ────────────────────────────────────────────────────────────────
 const BASE = 'https://raw.githubusercontent.com/solomon123james-cmd/fhl-dashboard-data/main/data/';
 const FILES = {
   groups:    BASE + 'General_Group_Info_Report.csv',
@@ -288,41 +255,40 @@ const BUILDINGS = new Set([
   'Conference Cottage','Chalet','Antioch','Tabernacle','Yurt'
 ]);
 
-// ── CSV parser ───────────────────────────────────────────────────────────────
 function parseCSV(text) {
-  const lines = text.trim().split(/\r?\n/);
-  if (!lines.length) return [];
-  const headers = splitCSVLine(lines[0]).map(h => h.trim().replace(/^"|"$/g,''));
   const rows = [];
-  for (let i = 1; i < lines.length; i++) {
-    const vals = splitCSVLine(lines[i]);
-    if (!vals.length) continue;
-    // Skip duplicate header rows (JasperServer pagination artifact)
-    if (vals[0].replace(/^"|"$/g,'') === headers[0]) continue;
+  let headers = null;
+  let i = 0;
+  while (i < text.length) {
+    const fields = [];
+    let field = '', inQ = false;
+    while (i < text.length) {
+      const c = text[i];
+      if (inQ) {
+        if (c === '"' && text[i+1] === '"') { field += '"'; i += 2; }
+        else if (c === '"') { inQ = false; i++; }
+        else { field += c; i++; }
+      } else {
+        if (c === '"') { inQ = true; i++; }
+        else if (c === ',') { fields.push(field); field = ''; i++; }
+        else if (c === '\r' && text[i+1] === '\n') { fields.push(field); i += 2; break; }
+        else if (c === '\n') { fields.push(field); i++; break; }
+        else { field += c; i++; }
+      }
+    }
+    if (i === text.length) fields.push(field);
+    if (fields.length === 1 && fields[0].trim() === '') continue;
+    if (!headers) { headers = fields.map(h => h.trim()); continue; }
+    if (fields[0].trim() === headers[0]) continue;
     const obj = {};
-    headers.forEach((h, idx) => { obj[h] = (vals[idx] || '').trim().replace(/^"|"$/g,''); });
+    headers.forEach((h, idx) => { obj[h] = (fields[idx] || '').trim(); });
     rows.push(obj);
   }
   return rows;
 }
 
-function splitCSVLine(line) {
-  const result = [];
-  let cur = '', inQ = false;
-  for (let i = 0; i < line.length; i++) {
-    const c = line[i];
-    if (c === '"') { inQ = !inQ; }
-    else if (c === ',' && !inQ) { result.push(cur); cur = ''; }
-    else { cur += c; }
-  }
-  result.push(cur);
-  return result;
-}
-
-// ── Date helpers (Eastern Time) ──────────────────────────────────────────────
 function parseDate(str) {
   if (!str) return null;
-  // Handle formats: "2026-06-25", "6/25/2026", "2026-06-25 14:00"
   const d = new Date(str.includes('T') ? str : str.replace(' ', 'T'));
   return isNaN(d) ? null : d;
 }
@@ -338,22 +304,18 @@ function fmtTime(d) {
 }
 
 function todayET() {
-  const now = new Date();
-  const etStr = now.toLocaleDateString('en-CA', { timeZone: TZ }); // YYYY-MM-DD
+  const etStr = new Date().toLocaleDateString('en-CA', { timeZone: TZ });
   return new Date(etStr + 'T00:00:00');
 }
 
 function addDays(d, n) {
-  const r = new Date(d);
-  r.setDate(r.getDate() + n);
-  return r;
+  const r = new Date(d); r.setDate(r.getDate() + n); return r;
 }
 
 function sameDay(a, b) {
   return a.toLocaleDateString('en-CA', { timeZone: TZ }) === b.toLocaleDateString('en-CA', { timeZone: TZ });
 }
 
-// ── Tab switching ────────────────────────────────────────────────────────────
 function switchTab(name) {
   document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === name));
@@ -368,7 +330,6 @@ function switchSubTab(name) {
   document.getElementById('sub-activities').style.display = name === 'activities' ? '' : 'none';
 }
 
-// ── Change detection ─────────────────────────────────────────────────────────
 let prevHashes = JSON.parse(localStorage.getItem('faholo-hashes') || '{}');
 
 async function hashStr(s) {
@@ -392,279 +353,187 @@ async function checkAndNotify(key, text) {
   localStorage.setItem('faholo-hashes', JSON.stringify(prevHashes));
 }
 
-// ── Notification banner ──────────────────────────────────────────────────────
 function showBanner(msg) {
   document.getElementById('notif-text').textContent = msg;
   document.getElementById('notif-banner').classList.add('show');
-}
-
-// ── Render: Groups ───────────────────────────────────────────────────────────
-function renderGroups(rows) {
-  const now   = todayET();
-  const limit = addDays(now, 14);
-
-  // Collapse multiple category rows per group into one record
-  const map = {};
-  for (const row of rows) {
-    const key = row.OrgName + '||' + (row.ArrivalDate || '');
-    if (!map[key]) map[key] = { ...row, categories: [] };
-    if (row.AttendeeCategory) map[key].categories.push(row.AttendeeCategory);
-  }
-
-  const groups = Object.values(map).filter(g => {
-    const arr = parseDate(g.ArrivalDate);
-    const dep = parseDate(g.DepartureDate);
-    if (!arr || !dep) return false;
-    return dep >= now && arr <= limit;
-  }).sort((a, b) => parseDate(a.ArrivalDate) - parseDate(b.ArrivalDate));
-
-  const panel = document.getElementById('panel-groups');
-  if (!groups.length) {
-    panel.innerHTML = '<div class="empty">No groups in the next 14 days.</div>';
-    return;
-  }
-
-  let html = '';
-  let lastDate = null;
-  for (const g of groups) {
-    const arr = parseDate(g.ArrivalDate);
-    const dep = parseDate(g.DepartureDate);
-    const dateKey = fmtDate(arr);
-    if (dateKey !== lastDate) {
-      html += '<div class="date-divider">' + dateKey + '</div>';
-      lastDate = dateKey;
-    }
-
-    const now2 = new Date();
-    const arriving  = sameDay(arr, now2);
-    const departing = sameDay(dep, now2);
-    const onSite    = arr <= now2 && dep >= now2 && !arriving;
-
-    const statusBadges =
-      (arriving  ? '<span class="badge arriving">Arriving today</span>'  : '') +
-      (departing ? '<span class="badge departing">Departing today</span>' : '') +
-      (onSite    ? '<span class="badge active">On site</span>' : '');
-
-    const catBadges = g.categories.map(c => '<span class="badge">' + esc(c) + '</span>').join('');
-
-    const arrTime = g.ArrivalTime   ? ' ' + fmtTime(parseDate(g.ArrivalTime))   : '';
-    const depTime = g.DepartureTime ? ' ' + fmtTime(parseDate(g.DepartureTime)) : '';
-
-    html +=
-      '<div class="card">' +
-        '<div class="card-title">' + esc(g.OrgName) + '</div>' +
-        '<div class="card-sub">Arrival: ' + fmtDate(arr) + arrTime + '</div>' +
-        '<div class="card-sub">Departure: ' + fmtDate(dep) + depTime + '</div>' +
-        '<div class="badges">' + statusBadges + catBadges + '</div>' +
-      '</div>';
-  }
-  panel.innerHTML = html;
-}
-
-// ── Render: Meals ────────────────────────────────────────────────────────────
-function parseAllergies(dietaryRequests, foodAllergies, mealInstructions) {
-  const totals = {};
-  const src = (dietaryRequests || foodAllergies || mealInstructions || '').trim();
-  if (!src) return totals;
-  for (const line of src.split(/\n/)) {
-    const t = line.trim();
-    if (!t) continue;
-    // Skip section headers (no digit)
-    if (!/\d/.test(t)) continue;
-    // Match "ALLERGY - COUNT" or "COUNT - ALLERGY"
-    let m = t.match(/^(.+?)\s*[-–\/]\s*(\d+)\s*$/);
-    if (!m) m = t.match(/^(\d+)\s*[-–]\s*(.+?)\s*$/);
-    if (!m) continue;
-    let name, count;
-    if (isNaN(m[1])) { name = m[1].trim(); count = parseInt(m[2]); }
-    else              { count = parseInt(m[1]); name = m[2].trim(); }
-    const key = allergyKey(name);
-    totals[key] = (totals[key] || 0) + count;
-  }
-  return totals;
-}
-
-function allergyKey(raw) {
-  const s = raw.toLowerCase().replace(/\s+/g,'');
-  if (s === 'gf/df' || s === 'gf/dfadults' || s.includes('gf') && s.includes('df')) return 'GF/DF';
-  if (s === 'gf' || s.includes('gluten')) return 'GF';
-  if (s === 'df' || s.includes('dairy')) return 'DF';
-  if (s.includes('egg')) return 'Egg';
-  if (s.includes('beef')) return 'Beef';
-  return raw.trim();
-}
-
-function allergyClass(key) {
-  if (key === 'GF')    return 'allergy-GF';
-  if (key === 'DF')    return 'allergy-DF';
-  if (key === 'GF/DF') return 'allergy-GFDF';
-  if (key === 'Egg')   return 'allergy-Egg';
-  if (key === 'Beef')  return 'allergy-Beef';
-  return 'allergy-misc';
-}
-
-function allergyLabel(key) {
-  if (key === 'GF')    return 'Gluten Free';
-  if (key === 'DF')    return 'Dairy Free';
-  if (key === 'GF/DF') return 'GF + DF';
-  return key;
-}
-
-function renderAllergyBubbles(dietaryRequests, foodAllergies, mealInstructions) {
-  const totals = parseAllergies(dietaryRequests, foodAllergies, mealInstructions);
-  const keys = Object.keys(totals);
-  if (!keys.length) return '';
-  const order = ['GF','DF','GF/DF','Egg','Beef'];
-  const sorted = [...keys].sort((a,b) => {
-    const ai = order.indexOf(a), bi = order.indexOf(b);
-    return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi);
-  });
-  return '<div class="allergy-bubbles">' +
-    sorted.map(k =>
-      `<span class="allergy-bubble ${allergyClass(k)}">${allergyLabel(k)}: ${totals[k]}</span>`
-    ).join('') +
-  '</div>';
-}
-
-function renderMeals(rows) {
-  const now   = new Date();
-  const limit = addDays(todayET(), 14);
-
-  const visible = rows.filter(r => {
-    const d = parseDate(r.MealDateTime);
-    return d && d >= now && d <= limit;
-  }).sort((a, b) => parseDate(a.MealDateTime) - parseDate(b.MealDateTime));
-
-  const panel = document.getElementById('panel-meals');
-  if (!visible.length) {
-    panel.innerHTML = '<div class="empty">No meals scheduled in the next 14 days.</div>';
-    return;
-  }
-
-  let html = '';
-  let lastDate = null;
-  for (const m of visible) {
-    const dt = parseDate(m.MealDateTime);
-    const dateKey = fmtDate(dt);
-    if (dateKey !== lastDate) {
-      html += '<div class="date-divider">' + dateKey + '</div>';
-      lastDate = dateKey;
-    }
-    const typeKey = (m.MealTypeName || 'Other').replace(/\s+/g, '');
-    const notes = m.MealNotes
-      ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>'
-      : '';
-    const allergyBubbles = renderAllergyBubbles(m.DietaryRequests, m.FoodAllergies, m.MealInstructions);
-    html +=
-      '<div class="card">' +
-        '<span class="meal-type meal-' + typeKey + '">' + esc(m.MealTypeName || 'Meal') + '</span>' +
-        '<div class="card-title">' + esc(m.OrgName) + '</div>' +
-        '<div class="card-sub">' + fmtTime(dt) + '</div>' +
-        notes +
-        allergyBubbles +
-      '</div>';
-  }
-  panel.innerHTML = html;
-}
-
-// ── Render: Resources ────────────────────────────────────────────────────────
-function renderResources(rows) {
-  const now   = new Date();
-  const limit = addDays(todayET(), 14);
-
-  const visible = rows.filter(r => {
-    const s = parseDate(r.ResStartDateTime);
-    const e = parseDate(r.ResEndDateTime);
-    return s && e && e >= now && s <= limit;
-  }).sort((a, b) => parseDate(a.ResStartDateTime) - parseDate(b.ResStartDateTime));
-
-  const buildings  = visible.filter(r => BUILDINGS.has(r.ResourceName));
-  const activities = visible.filter(r => !BUILDINGS.has(r.ResourceName));
-
-  document.getElementById('sub-buildings').innerHTML  = renderResourceList(buildings,  'buildings');
-  document.getElementById('sub-activities').innerHTML = renderResourceList(activities, 'activities');
-}
-
-function renderResourceList(rows, label) {
-  if (!rows.length) return '<div class="empty">No ' + label + ' booked in the next 14 days.</div>';
-  let html = '';
-  let lastDate = null;
-  for (const r of rows) {
-    const s = parseDate(r.ResStartDateTime);
-    const e = parseDate(r.ResEndDateTime);
-    const dateKey = fmtDate(s);
-    if (dateKey !== lastDate) {
-      html += '<div class="date-divider">' + dateKey + '</div>';
-      lastDate = dateKey;
-    }
-    const notes = r.ResNotes
-      ? '<div class="card-notes">&#128203; ' + esc(r.ResNotes) + '</div>'
-      : '';
-    html +=
-      '<div class="card">' +
-        '<div class="card-title">' + esc(r.ResourceName) + '</div>' +
-        '<div class="card-sub">' + esc(r.BookingName) + '</div>' +
-        '<div class="card-sub">' + fmtTime(s) + ' &ndash; ' + fmtTime(e) + '</div>' +
-        notes +
-      '</div>';
-  }
-  return html;
 }
 
 function esc(s) {
   return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-// ── Fetch & load ─────────────────────────────────────────────────────────────
+function renderGroups(rows) {
+  const now = new Date(), limit = addDays(todayET(), 14);
+  const map = {};
+  for (const row of rows) {
+    const key = row.OrgName + '||' + (row.ArrivalDate || '');
+    if (!map[key]) map[key] = { ...row, categories: [] };
+    if (row.AttendeeCategory) map[key].categories.push(row.AttendeeCategory);
+  }
+  const groups = Object.values(map).filter(g => {
+    const arr = parseDate(g.ArrivalDate), dep = parseDate(g.DepartureDate);
+    return arr && dep && dep >= todayET() && arr <= limit;
+  }).sort((a, b) => parseDate(a.ArrivalDate) - parseDate(b.ArrivalDate));
+
+  const panel = document.getElementById('panel-groups');
+  if (!groups.length) { panel.innerHTML = '<div class="empty">No groups in the next 14 days.</div>'; return; }
+
+  let html = '', lastDate = null;
+  for (const g of groups) {
+    const arr = parseDate(g.ArrivalDate), dep = parseDate(g.DepartureDate);
+    const dateKey = fmtDate(arr);
+    if (dateKey !== lastDate) { html += '<div class="date-divider">' + dateKey + '</div>'; lastDate = dateKey; }
+    const arriving  = sameDay(arr, now);
+    const departing = sameDay(dep, now);
+    const onSite    = arr <= now && dep >= now && !arriving;
+    const statusBadges =
+      (arriving  ? '<span class="badge arriving">Arriving today</span>'  : '') +
+      (departing ? '<span class="badge departing">Departing today</span>' : '') +
+      (onSite    ? '<span class="badge active">On site</span>' : '');
+    const catBadges = g.categories.map(c => '<span class="badge">' + esc(c) + '</span>').join('');
+    html +=
+      '<div class="card">' +
+        '<div class="card-title">' + esc(g.OrgName) + '</div>' +
+        '<div class="card-sub">Arrival: ' + fmtDate(arr) + (g.ArrivalTime ? ' ' + fmtTime(parseDate(g.ArrivalTime)) : '') + '</div>' +
+        '<div class="card-sub">Departure: ' + fmtDate(dep) + (g.DepartureTime ? ' ' + fmtTime(parseDate(g.DepartureTime)) : '') + '</div>' +
+        '<div class="badges">' + statusBadges + catBadges + '</div>' +
+      '</div>';
+  }
+  panel.innerHTML = html;
+}
+
+function parseAllergies(dr, fa, mi) {
+  const totals = {};
+  const src = (dr || fa || mi || '').trim();
+  if (!src) return totals;
+  for (const line of src.split(/\n/)) {
+    const t = line.trim();
+    if (!t || !/\d/.test(t)) continue;
+    let m = t.match(/^(.+?)\s*[-–]\s*(\d+)\s*$/) || t.match(/^(\d+)\s*[-–]\s*(.+?)\s*$/);
+    if (!m) continue;
+    let name, count;
+    if (isNaN(m[1])) { name = m[1].trim(); count = parseInt(m[2]); }
+    else { count = parseInt(m[1]); name = m[2].trim(); }
+    const k = allergyKey(name);
+    totals[k] = (totals[k] || 0) + count;
+  }
+  return totals;
+}
+function allergyKey(raw) {
+  const s = raw.toLowerCase().replace(/\s+/g,'');
+  if (s.includes('gf') && s.includes('df')) return 'GF/DF';
+  if (s === 'gf' || s.includes('gluten')) return 'GF';
+  if (s === 'df' || s.includes('dairy')) return 'DF';
+  if (s.includes('egg')) return 'Egg';
+  if (s.includes('beef')) return 'Beef';
+  return raw.trim();
+}
+function allergyClass(k) {
+  return {GF:'allergy-GF',DF:'allergy-DF','GF/DF':'allergy-GFDF',Egg:'allergy-Egg',Beef:'allergy-Beef'}[k] || 'allergy-misc';
+}
+function allergyLabel(k) {
+  return {GF:'Gluten Free',DF:'Dairy Free','GF/DF':'GF + DF'}[k] || k;
+}
+function renderAllergyBubbles(dr, fa, mi) {
+  const totals = parseAllergies(dr, fa, mi);
+  const order = ['GF','DF','GF/DF','Egg','Beef'];
+  const keys = Object.keys(totals).sort((a,b) => (order.indexOf(a)<0?99:order.indexOf(a))-(order.indexOf(b)<0?99:order.indexOf(b)));
+  if (!keys.length) return '';
+  return '<div class="allergy-bubbles">' + keys.map(k => `<span class="allergy-bubble ${allergyClass(k)}">${allergyLabel(k)}: ${totals[k]}</span>`).join('') + '</div>';
+}function renderMeals(rows) {
+  const now = new Date(), limit = addDays(todayET(), 14);
+  const visible = rows.filter(r => {
+    const d = parseDate(r.MealDateTime);
+    return d && d >= now && d <= limit;
+  }).sort((a, b) => parseDate(a.MealDateTime) - parseDate(b.MealDateTime));
+
+  const panel = document.getElementById('panel-meals');
+  if (!visible.length) { panel.innerHTML = '<div class="empty">No meals in the next 14 days.</div>'; return; }
+
+  let html = '', lastDate = null;
+  for (const m of visible) {
+    const dt = parseDate(m.MealDateTime), dateKey = fmtDate(dt);
+    if (dateKey !== lastDate) { html += '<div class="date-divider">' + dateKey + '</div>'; lastDate = dateKey; }
+    const typeKey = (m.MealTypeName || 'Other').replace(/\s+/g,'');
+    html +=
+      '<div class="card">' +
+        '<span class="meal-type meal-' + typeKey + '">' + esc(m.MealTypeName || 'Meal') + '</span>' +
+        '<div class="card-title">' + esc(m.OrgName) + '</div>' +
+        '<div class="card-sub">' + fmtTime(dt) + '</div>' +
+              (m.MealNotes ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>' : '') +
+        renderAllergyBubbles(m.DietaryRequests, m.FoodAllergies, m.MealInstructions) +
+     '</div>';
+  }
+  panel.innerHTML = html;
+}
+
+function renderResources(rows) {
+  const now = new Date(), limit = addDays(todayET(), 14);
+  const visible = rows.filter(r => {
+    const s = parseDate(r.ResStartDateTime), e = parseDate(r.ResEndDateTime);
+    return s && e && e >= now && s <= limit;
+  }).sort((a, b) => parseDate(a.ResStartDateTime) - parseDate(b.ResStartDateTime));
+
+  document.getElementById('sub-buildings').innerHTML  = renderResourceList(visible.filter(r =>  BUILDINGS.has(r.ResourceName)), 'buildings');
+  document.getElementById('sub-activities').innerHTML = renderResourceList(visible.filter(r => !BUILDINGS.has(r.ResourceName)), 'activities');
+}
+
+function renderResourceList(rows, label) {
+  if (!rows.length) return '<div class="empty">No ' + label + ' booked in the next 14 days.</div>';
+  let html = '', lastDate = null;
+  for (const r of rows) {
+    const s = parseDate(r.ResStartDateTime), e = parseDate(r.ResEndDateTime);
+    const dateKey = fmtDate(s);
+    if (dateKey !== lastDate) { html += '<div class="date-divider">' + dateKey + '</div>'; lastDate = dateKey; }
+    html +=
+      '<div class="card">' +
+        '<div class="card-title">' + esc(r.ResourceName) + '</div>' +
+        '<div class="card-sub">' + esc(r.BookingName) + '</div>' +
+        '<div class="card-sub">' + fmtTime(s) + ' &ndash; ' + fmtTime(e) + '</div>' +
+        (r.ResNotes ? '<div class="card-notes">&#128203; ' + esc(r.ResNotes) + '</div>' : '') +
+      '</div>';
+  }
+  return html;
+}
+
 async function fetchCSV(url) {
   const r = await fetch(url + '?_=' + Date.now());
-  if (!r.ok) throw new Error('HTTP ' + r.status + ' ' + url);
+  if (!r.ok) throw new Error('HTTP ' + r.status);
   return r.text();
 }
 
 async function loadAll() {
   const el = document.getElementById('last-updated');
   el.textContent = 'Refreshing…';
-
-  document.getElementById('panel-groups').innerHTML    = '<div class="spinner"></div>';
-  document.getElementById('panel-meals').innerHTML     = '<div class="spinner"></div>';
-  document.getElementById('sub-buildings').innerHTML   = '<div class="spinner"></div>';
-  document.getElementById('sub-activities').innerHTML  = '<div class="spinner"></div>';
-
+  document.getElementById('panel-groups').innerHTML   = '<div class="spinner"></div>';
+  document.getElementById('panel-meals').innerHTML    = '<div class="spinner"></div>';
+  document.getElementById('sub-buildings').innerHTML  = '<div class="spinner"></div>';
+  document.getElementById('sub-activities').innerHTML = '<div class="spinner"></div>';
   try {
     const [gText, mText, rText] = await Promise.all([
-      fetchCSV(FILES.groups),
-      fetchCSV(FILES.meals),
-      fetchCSV(FILES.resources),
+      fetchCSV(FILES.groups), fetchCSV(FILES.meals), fetchCSV(FILES.resources)
     ]);
-
     await Promise.all([
-      checkAndNotify('Groups',    gText),
-      checkAndNotify('Meals',     mText),
+      checkAndNotify('Groups', gText),
+      checkAndNotify('Meals', mText),
       checkAndNotify('Resources', rText),
     ]);
-
     renderGroups(parseCSV(gText));
     renderMeals(parseCSV(mText));
     renderResources(parseCSV(rText));
-
-    const ts = new Date().toLocaleString('en-US', {
+    el.textContent = 'Updated ' + new Date().toLocaleString('en-US', {
       timeZone: TZ, hour: 'numeric', minute: '2-digit', month: 'short', day: 'numeric'
-    });
-    el.textContent = 'Updated ' + ts + ' ET';
+    }) + ' ET';
   } catch (err) {
     el.textContent = 'Error loading — check connection';
     console.error(err);
   }
 }
 
-// ── Boot ─────────────────────────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js').catch(() => {});
 }
-
 loadAll();
-// Auto-refresh every 10 minutes
 setInterval(loadAll, 10 * 60 * 1000);
 </script>
 </body>
