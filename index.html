@@ -462,9 +462,9 @@ function renderGroups(rows) {
 }
 
 // ── Render: Meals ────────────────────────────────────────────────────────────
-function parseAllergies(dietaryRequests, mealInstructions) {
+function parseAllergies(dietaryRequests, foodAllergies, mealInstructions) {
   const totals = {};
-  const src = (dietaryRequests || mealInstructions || '').trim();
+  const src = (dietaryRequests || foodAllergies || mealInstructions || '').trim();
   if (!src) return totals;
   for (const line of src.split(/\n/)) {
     const t = line.trim();
@@ -510,8 +510,8 @@ function allergyLabel(key) {
   return key;
 }
 
-function renderAllergyBubbles(dietaryRequests, mealInstructions) {
-  const totals = parseAllergies(dietaryRequests, mealInstructions);
+function renderAllergyBubbles(dietaryRequests, foodAllergies, mealInstructions) {
+  const totals = parseAllergies(dietaryRequests, foodAllergies, mealInstructions);
   const keys = Object.keys(totals);
   if (!keys.length) return '';
   const order = ['GF','DF','GF/DF','Egg','Beef'];
@@ -554,7 +554,7 @@ function renderMeals(rows) {
     const notes = m.MealNotes
       ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>'
       : '';
-    const allergyBubbles = renderAllergyBubbles(m.DietaryRequests, m.MealInstructions);
+    const allergyBubbles = renderAllergyBubbles(m.DietaryRequests, m.FoodAllergies, m.MealInstructions);
     html +=
       '<div class="card">' +
         '<span class="meal-type meal-' + typeKey + '">' + esc(m.MealTypeName || 'Meal') + '</span>' +
