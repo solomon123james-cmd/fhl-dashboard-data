@@ -169,6 +169,21 @@
   .meal-Dinner    { background: #e8eaf6; color: #1a237e; }
   .meal-Snacks    { background: #fce4ec; color: #880e4f; }
 
+  /* ── Allergy bubbles ── */
+  .allergy-bubbles { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+  .allergy-bubble {
+    font-size: .72rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+  .allergy-GF   { background: #e8f5e9; color: #1b5e20; }
+  .allergy-DF   { background: #e3f2fd; color: #0d47a1; }
+  .allergy-GFDF { background: #f3e5f5; color: #6a1b9a; }
+  .allergy-Egg  { background: #fff8e1; color: #e65100; }
+  .allergy-Beef { background: #ffebee; color: #b71c1c; }
+  .allergy-misc { background: var(--linen); color: var(--brown); }
+
   /* ── Empty / loading ── */
   .empty { text-align: center; color: var(--mist); padding: 40px 20px; font-size: .9rem; }
   .spinner {
@@ -447,6 +462,70 @@ function renderGroups(rows) {
 }
 
 // ── Render: Meals ────────────────────────────────────────────────────────────
+function parseAllergies(dietaryRequests, mealInstructions) {
+  const totals = {};
+  const src = (dietaryRequests || mealInstructions || '').trim();
+  if (!src) return totals;
+  for (const line of src.split(/\n/)) {
+    const t = line.trim();
+    if (!t) continue;
+    // Skip section headers (no digit)
+    if (!/\d/.test(t)) continue;
+    // Match "ALLERGY - COUNT" or "COUNT - ALLERGY"
+    let m = t.match(/^(.+?)\s*[-–\/]\s*(\d+)\s*$/);
+    if (!m) m = t.match(/^(\d+)\s*[-–]\s*(.+?)\s*$/);
+    if (!m) continue;
+    let name, count;
+    if (isNaN(m[1])) { name = m[1].trim(); count = parseInt(m[2]); }
+    else              { count = parseInt(m[1]); name = m[2].trim(); }
+    const key = allergyKey(name);
+    totals[key] = (totals[key] || 0) + count;
+  }
+  return totals;
+}
+
+function allergyKey(raw) {
+  const s = raw.toLowerCase().replace(/\s+/g,'');
+  if (s === 'gf/df' || s === 'gf/dfadults' || s.includes('gf') && s.includes('df')) return 'GF/DF';
+  if (s === 'gf' || s.includes('gluten')) return 'GF';
+  if (s === 'df' || s.includes('dairy')) return 'DF';
+  if (s.includes('egg')) return 'Egg';
+  if (s.includes('beef')) return 'Beef';
+  return raw.trim();
+}
+
+function allergyClass(key) {
+  if (key === 'GF')    return 'allergy-GF';
+  if (key === 'DF')    return 'allergy-DF';
+  if (key === 'GF/DF') return 'allergy-GFDF';
+  if (key === 'Egg')   return 'allergy-Egg';
+  if (key === 'Beef')  return 'allergy-Beef';
+  return 'allergy-misc';
+}
+
+function allergyLabel(key) {
+  if (key === 'GF')    return 'Gluten Free';
+  if (key === 'DF')    return 'Dairy Free';
+  if (key === 'GF/DF') return 'GF + DF';
+  return key;
+}
+
+function renderAllergyBubbles(dietaryRequests, mealInstructions) {
+  const totals = parseAllergies(dietaryRequests, mealInstructions);
+  const keys = Object.keys(totals);
+  if (!keys.length) return '';
+  const order = ['GF','DF','GF/DF','Egg','Beef'];
+  const sorted = [...keys].sort((a,b) => {
+    const ai = order.indexOf(a), bi = order.indexOf(b);
+    return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi);
+  });
+  return '<div class="allergy-bubbles">' +
+    sorted.map(k =>
+      `<span class="allergy-bubble ${allergyClass(k)}">${allergyLabel(k)}: ${totals[k]}</span>`
+    ).join('') +
+  '</div>';
+}
+
 function renderMeals(rows) {
   const now   = new Date();
   const limit = addDays(todayET(), 14);
@@ -475,12 +554,14 @@ function renderMeals(rows) {
     const notes = m.MealNotes
       ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>'
       : '';
+    const allergyBubbles = renderAllergyBubbles(m.DietaryRequests, m.MealInstructions);
     html +=
       '<div class="card">' +
         '<span class="meal-type meal-' + typeKey + '">' + esc(m.MealTypeName || 'Meal') + '</span>' +
         '<div class="card-title">' + esc(m.OrgName) + '</div>' +
         '<div class="card-sub">' + fmtTime(dt) + '</div>' +
         notes +
+        allergyBubbles +
       '</div>';
   }
   panel.innerHTML = html;
