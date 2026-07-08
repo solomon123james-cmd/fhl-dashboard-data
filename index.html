@@ -362,6 +362,34 @@ function esc(s) {
   return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+// Build a lookup: given orgName + meal date, find the BookingName from the groups report
+function buildBookingLookup(groupRows) {
+  const seen = new Set();
+  const bookings = [];
+  for (const row of groupRows) {
+    const key = row.OrgName + '||' + row.ArrivalDate;
+    if (!seen.has(key) && row.BookingName) {
+      seen.add(key);
+      bookings.push({
+        orgName: row.OrgName,
+        bookingName: row.BookingName,
+        arr: parseDate(row.ArrivalDate),
+        dep: parseDate(row.DepartureDate),
+      });
+    }
+  }
+  return bookings;
+}
+
+function lookupBookingName(bookings, orgName, mealDate) {
+  for (const b of bookings) {
+    if (b.orgName === orgName && b.arr && b.dep && mealDate >= b.arr && mealDate <= b.dep) {
+      return b.bookingName;
+    }
+  }
+  return null;
+}
+
 function renderGroups(rows) {
   const now = new Date(), limit = addDays(todayET(), 14);
   const map = {};
@@ -446,7 +474,7 @@ function renderAllergyBubbles(dr, fa, mi) {
   return '<div class="allergy-bubbles">' + keys.map(k => `<span class="allergy-bubble ${allergyClass(k)}">${allergyLabel(k)}: ${totals[k]}</span>`).join('') + '</div>';
 }
 
-function renderMeals(rows) {
+function renderMeals(rows, bookings) {
   const now = new Date(), limit = addDays(todayET(), 14);
   const visible = rows.filter(r => {
     const d = parseDate(r.MealDateTime);
@@ -461,11 +489,12 @@ function renderMeals(rows) {
     const dt = parseDate(m.MealDateTime), dateKey = fmtDate(dt);
     if (dateKey !== lastDate) { html += '<div class="date-divider">' + dateKey + '</div>'; lastDate = dateKey; }
     const typeKey = (m.MealTypeName || 'Other').replace(/\s+/g,'');
+    const bookingName = lookupBookingName(bookings, m.OrgName, dt);
     html +=
       '<div class="card">' +
         '<span class="meal-type meal-' + typeKey + '">' + esc(m.MealTypeName || 'Meal') + '</span>' +
-        '<div class="card-title">' + esc(m.BookingName || m.OrgName) + '</div>' +
-        (m.BookingName ? '<div class="card-sub">' + esc(m.OrgName) + '</div>' : '') +
+        '<div class="card-title">' + esc(bookingName || m.OrgName) + '</div>' +
+        (bookingName ? '<div class="card-sub">' + esc(m.OrgName) + '</div>' : '') +
         '<div class="card-sub">' + fmtTime(dt) + '</div>' +
         (m.MealNotes ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>' : '') +
         renderAllergyBubbles(m.DietaryRequests, m.FoodAllergies, m.MealInstructions) +
@@ -525,8 +554,10 @@ async function loadAll() {
       checkAndNotify('Meals', mText),
       checkAndNotify('Resources', rText),
     ]);
-    renderGroups(parseCSV(gText));
-    renderMeals(parseCSV(mText));
+    const gRows = parseCSV(gText);
+    const bookings = buildBookingLookup(gRows);
+    renderGroups(gRows);
+    renderMeals(parseCSV(mText), bookings);
     renderResources(parseCSV(rText));
     el.textContent = 'Updated ' + new Date().toLocaleString('en-US', {
       timeZone: TZ, hour: 'numeric', minute: '2-digit', month: 'short', day: 'numeric'
