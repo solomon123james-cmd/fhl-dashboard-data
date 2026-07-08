@@ -367,10 +367,8 @@ function renderGroups(rows) {
   const map = {};
   for (const row of rows) {
     const key = row.OrgName + '||' + (row.ArrivalDate || '');
-    if (!map[key]) map[key] = { ...row, categories: [], totalActual: 0 };
+    if (!map[key]) map[key] = { ...row, categories: [] };
     if (row.AttendeeCategory) map[key].categories.push(row.AttendeeCategory);
-    const n = parseInt(row.ActualNumber);
-    if (!isNaN(n)) map[key].totalActual += n;
   }
   const groups = Object.values(map).filter(g => {
     const arr = parseDate(g.ArrivalDate), dep = parseDate(g.DepartureDate);
@@ -394,10 +392,11 @@ function renderGroups(rows) {
       (onSite    ? '<span class="badge active">On site</span>' : '');
     const catBadges = g.categories.map(c => '<span class="badge">' + esc(c) + '</span>').join('');
     const title = g.BookingName || g.OrgName;
+    const actualNum = parseInt(g.ActualNumber);
     html +=
       '<div class="card">' +
         '<div class="card-title">' + esc(title) + '</div>' +
-        (g.totalActual > 0 ? '<div class="card-sub">' + g.totalActual + ' attendees</div>' : '') +
+        (!isNaN(actualNum) && actualNum > 0 ? '<div class="card-sub">' + actualNum + ' attendees</div>' : '') +
         '<div class="card-sub">Arrival: ' + fmtDate(arr) + (g.ArrivalTime ? ' ' + fmtTime(parseDate(g.ArrivalTime)) : '') + '</div>' +
         '<div class="card-sub">Departure: ' + fmtDate(dep) + (g.DepartureTime ? ' ' + fmtTime(parseDate(g.DepartureTime)) : '') + '</div>' +
         '<div class="badges">' + statusBadges + catBadges + '</div>' +
