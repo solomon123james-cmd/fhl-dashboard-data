@@ -1,4 +1,4 @@
-const CACHE = 'faholo-v2';
+const CACHE = 'faholo-v3';
 const ASSETS = ['./index.html', './manifest.json', './icon.svg'];
 
 self.addEventListener('install', e => {

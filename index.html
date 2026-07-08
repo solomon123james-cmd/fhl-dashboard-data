@@ -404,12 +404,12 @@ function renderGroups(rows) {
 
 function parseAllergies(dr, fa, mi) {
   const totals = {};
-  const src = (dr || fa || mi || '').trim();
+  const src = (fa || dr || mi || '').trim();
   if (!src) return totals;
   for (const line of src.split(/\n/)) {
     const t = line.trim();
     if (!t || !/\d/.test(t)) continue;
-    let m = t.match(/^(.+?)\s*[-–]\s*(\d+)\s*$/) || t.match(/^(\d+)\s*[-–]\s*(.+?)\s*$/);
+    let m = t.match(/^(.+?)\s*[-–:]\s*(\d+)\s*$/) || t.match(/^(\d+)\s*[-–:]\s*(.+?)\s*$/);
     if (!m) continue;
     let name, count;
     if (isNaN(m[1])) { name = m[1].trim(); count = parseInt(m[2]); }
@@ -422,7 +422,7 @@ function parseAllergies(dr, fa, mi) {
 function allergyKey(raw) {
   const s = raw.toLowerCase().replace(/\s+/g,'');
   if (s.includes('gf') && s.includes('df')) return 'GF/DF';
-  if (s === 'gf' || s.includes('gluten')) return 'GF';
+  if (s === 'gf' || s.includes('gluten') || s.includes('celiac')) return 'GF';
   if (s === 'df' || s.includes('dairy')) return 'DF';
   if (s.includes('egg')) return 'Egg';
   if (s.includes('beef')) return 'Beef';
