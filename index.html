@@ -396,6 +396,7 @@ function renderGroups(rows) {
     html +=
       '<div class="card">' +
         '<div class="card-title">' + esc(title) + '</div>' +
+        (g.BookingName ? '<div class="card-sub">' + esc(g.OrgName) + '</div>' : '') +
         (!isNaN(actualNum) && actualNum > 0 ? '<div class="card-sub">' + actualNum + ' attendees</div>' : '') +
         '<div class="card-sub">Arrival: ' + fmtDate(arr) + (g.ArrivalTime ? ' ' + fmtTime(parseDate(g.ArrivalTime)) : '') + '</div>' +
         '<div class="card-sub">Departure: ' + fmtDate(dep) + (g.DepartureTime ? ' ' + fmtTime(parseDate(g.DepartureTime)) : '') + '</div>' +
@@ -463,7 +464,8 @@ function renderMeals(rows) {
     html +=
       '<div class="card">' +
         '<span class="meal-type meal-' + typeKey + '">' + esc(m.MealTypeName || 'Meal') + '</span>' +
-        '<div class="card-title">' + esc(m.OrgName) + '</div>' +
+        '<div class="card-title">' + esc(m.BookingName || m.OrgName) + '</div>' +
+        (m.BookingName ? '<div class="card-sub">' + esc(m.OrgName) + '</div>' : '') +
         '<div class="card-sub">' + fmtTime(dt) + '</div>' +
         (m.MealNotes ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>' : '') +
         renderAllergyBubbles(m.DietaryRequests, m.FoodAllergies, m.MealInstructions) +
@@ -492,8 +494,8 @@ function renderResourceList(rows, label) {
     if (dateKey !== lastDate) { html += '<div class="date-divider">' + dateKey + '</div>'; lastDate = dateKey; }
     html +=
       '<div class="card">' +
-        '<div class="card-title">' + esc(r.ResourceName) + '</div>' +
-        '<div class="card-sub">' + esc(r.BookingName) + '</div>' +
+        '<div class="card-title">' + esc(r.BookingName) + '</div>' +
+        '<div class="card-sub">' + esc(r.ResourceName) + '</div>' +
         '<div class="card-sub">' + fmtTime(s) + ' &ndash; ' + fmtTime(e) + '</div>' +
         (r.ResNotes ? '<div class="card-notes">&#128203; ' + esc(r.ResNotes) + '</div>' : '') +
       '</div>';
