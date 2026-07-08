@@ -362,7 +362,7 @@ function esc(s) {
   return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-// Build a lookup: given orgName + meal date, find the BookingName from the groups report
+// Build lookup: orgName + date range -> { bookingName, actualNumber }
 function buildBookingLookup(groupRows) {
   const seen = new Set();
   const bookings = [];
@@ -373,6 +373,7 @@ function buildBookingLookup(groupRows) {
       bookings.push({
         orgName: row.OrgName,
         bookingName: row.BookingName,
+        actualNumber: parseInt(row.ActualNumber) || 0,
         arr: parseDate(row.ArrivalDate),
         dep: parseDate(row.DepartureDate),
       });
@@ -381,10 +382,10 @@ function buildBookingLookup(groupRows) {
   return bookings;
 }
 
-function lookupBookingName(bookings, orgName, mealDate) {
+function lookupBooking(bookings, orgName, date) {
   for (const b of bookings) {
-    if (b.orgName === orgName && b.arr && b.dep && mealDate >= b.arr && mealDate <= b.dep) {
-      return b.bookingName;
+    if (b.orgName === orgName && b.arr && b.dep && date >= b.arr && date <= b.dep) {
+      return b;
     }
   }
   return null;
@@ -489,12 +490,13 @@ function renderMeals(rows, bookings) {
     const dt = parseDate(m.MealDateTime), dateKey = fmtDate(dt);
     if (dateKey !== lastDate) { html += '<div class="date-divider">' + dateKey + '</div>'; lastDate = dateKey; }
     const typeKey = (m.MealTypeName || 'Other').replace(/\s+/g,'');
-    const bookingName = lookupBookingName(bookings, m.OrgName, dt);
+    const booking = lookupBooking(bookings, m.OrgName, dt);
     html +=
       '<div class="card">' +
         '<span class="meal-type meal-' + typeKey + '">' + esc(m.MealTypeName || 'Meal') + '</span>' +
-        '<div class="card-title">' + esc(bookingName || m.OrgName) + '</div>' +
-        (bookingName ? '<div class="card-sub">' + esc(m.OrgName) + '</div>' : '') +
+        '<div class="card-title">' + esc(booking ? booking.bookingName : m.OrgName) + '</div>' +
+        (booking ? '<div class="card-sub">' + esc(m.OrgName) + '</div>' : '') +
+        (booking && booking.actualNumber > 0 ? '<div class="card-sub">' + booking.actualNumber + ' attendees</div>' : '') +
         '<div class="card-sub">' + fmtTime(dt) + '</div>' +
         (m.MealNotes ? '<div class="card-notes">&#128203; ' + esc(m.MealNotes) + '</div>' : '') +
         renderAllergyBubbles(m.DietaryRequests, m.FoodAllergies, m.MealInstructions) +
