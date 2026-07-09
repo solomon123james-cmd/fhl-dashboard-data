@@ -1,58 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Breakfast,"Jul 8, 2026 8:30:00 AM",,"GF - 4
-DF - 7","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2","Artificial Food Dye - 1
-Gluten - 4
-Dairy - 7
-Pineapple - 2"
-Michigan Student Ministries ,Lunch,"Jul 8, 2026 12:00:00 PM",Welcome Hot Dog Lunch this goes from 12-2,"Gluten-free: 3
-Celiac disease: 3
-Dairy allergy: 1
-Dairy sensitivity/lactose intolerance: 2
-Artificial food dyes: 3
-No pork: 4
-No eggs/poultry: 1
-No beef: 1
-No mushrooms: 1
-No pineapple: 1
-No kiwi: 1
-No strawberries: 1
-","GF: 6
-DF:3","GF: 6
-DF:3"
-Michigan Student Ministries ,Dinner,"Jul 8, 2026 5:30:00 PM",,"Gluten-free: 3
-Celiac disease: 3
-Dairy allergy: 1
-Dairy sensitivity/lactose intolerance: 2
-Artificial food dyes: 3
-No pork: 4
-No eggs/poultry: 1
-No beef: 1
-No mushrooms: 1
-No pineapple: 1
-No kiwi: 1
-No strawberries: 1
-","GF: 6
-DF:3","GF: 6
-DF:3"
-Michigan Student Ministries ,Snacks,"Jul 8, 2026 9:00:00 PM",,"Gluten-free: 3
-Celiac disease: 3
-Dairy allergy: 1
-Dairy sensitivity/lactose intolerance: 2
-Artificial food dyes: 3
-No pork: 4
-No eggs/poultry: 1
-No beef: 1
-No mushrooms: 1
-No pineapple: 1
-No kiwi: 1
-No strawberries: 1
-","GF: 6
-DF:3","GF: 6
-DF:3"
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 9, 2026 8:15:00 AM",,"Gluten-free: 3
 Celiac disease: 3
 Dairy allergy: 1
@@ -334,6 +280,22 @@ GF- 5
 DF-3
 GF/Df -1 ",,
 Michigan Student Ministries ,Snacks,"Jul 22, 2026 9:00:00 PM",,"Pork- 1
+GF- 5
+DF-3
+GF/Df -1 ",,
+Michigan Student Ministries ,Breakfast,"Jul 23, 2026 8:00:00 AM",,"Pork- 1
+GF- 5
+DF-3
+GF/Df -1 ",,
+Michigan Student Ministries ,Lunch,"Jul 23, 2026 12:00:00 PM",,"Pork- 1
+GF- 5
+DF-3
+GF/Df -1 ",,
+Michigan Student Ministries ,Dinner,"Jul 23, 2026 5:00:00 PM",,"Pork- 1
+GF- 5
+DF-3
+GF/Df -1 ",,
+Michigan Student Ministries ,Snacks,"Jul 23, 2026 9:00:00 PM",,"Pork- 1
 GF- 5
 DF-3
 GF/Df -1 ",,
