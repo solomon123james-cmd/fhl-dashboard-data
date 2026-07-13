@@ -1,29 +1,5 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Lunch,"Jul 12, 2026 12:00:00 PM",Welcome Hot Dog Lunch this goes from12-2 ,"1- Shellfish
-1- Lactose intolerence
-3- Gluten
-1- Dye Free
-1- Nut
-1- Dairy/wheat
-2- Celiac/gluten free
-1- No Nightshades (tomatoes, tomato sauce, etc) ",,
-Michigan Student Ministries ,Dinner,"Jul 12, 2026 5:30:00 PM",,"1- Shellfish
-1- Lactose intolerence
-3- Gluten
-1- Dye Free
-1- Nut
-1- Dairy/wheat
-2- Celiac/gluten free
-1- No Nightshades (tomatoes, tomato sauce, etc) ",,
-Michigan Student Ministries ,Snacks,"Jul 12, 2026 8:30:00 PM",,"1- Shellfish
-1- Lactose intolerence
-3- Gluten
-1- Dye Free
-1- Nut
-1- Dairy/wheat
-2- Celiac/gluten free
-1- No Nightshades (tomatoes, tomato sauce, etc) ",,
-Michigan Student Ministries ,Breakfast,"Jul 13, 2026 8:30:00 AM",,"1- Shellfish
+Michigan Student Ministries ,Breakfast,"Jul 13, 2026 8:15:00 AM",,"1- Shellfish
 1- Lactose intolerence
 3- Gluten
 1- Dye Free
@@ -39,7 +15,6 @@ Michigan Student Ministries ,Lunch,"Jul 13, 2026 12:00:00 PM",,"1- Shellfish
 1- Dairy/wheat
 2- Celiac/gluten free
 1- No Nightshades (tomatoes, tomato sauce, etc) ",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Dinner,"Jul 13, 2026 5:30:00 PM",,"1- Shellfish
 1- Lactose intolerence
 3- Gluten
@@ -56,7 +31,7 @@ Michigan Student Ministries ,Snacks,"Jul 13, 2026 9:00:00 PM",,"1- Shellfish
 1- Dairy/wheat
 2- Celiac/gluten free
 1- No Nightshades (tomatoes, tomato sauce, etc) ",,
-Michigan Student Ministries ,Breakfast,"Jul 14, 2026 8:30:00 AM",,"1- Shellfish
+Michigan Student Ministries ,Breakfast,"Jul 14, 2026 8:15:00 AM",,"1- Shellfish
 1- Lactose intolerence
 3- Gluten
 1- Dye Free
@@ -64,6 +39,7 @@ Michigan Student Ministries ,Breakfast,"Jul 14, 2026 8:30:00 AM",,"1- Shellfish
 1- Dairy/wheat
 2- Celiac/gluten free
 1- No Nightshades (tomatoes, tomato sauce, etc) ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Lunch,"Jul 14, 2026 12:00:00 PM",,"1- Shellfish
 1- Lactose intolerence
 3- Gluten
@@ -80,7 +56,6 @@ Michigan Student Ministries ,Dinner,"Jul 14, 2026 5:30:00 PM",,"1- Shellfish
 1- Dairy/wheat
 2- Celiac/gluten free
 1- No Nightshades (tomatoes, tomato sauce, etc) ",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Snacks,"Jul 14, 2026 8:30:00 PM",,"1- Shellfish
 1- Lactose intolerence
 3- Gluten
@@ -89,7 +64,7 @@ Michigan Student Ministries ,Snacks,"Jul 14, 2026 8:30:00 PM",,"1- Shellfish
 1- Dairy/wheat
 2- Celiac/gluten free
 1- No Nightshades (tomatoes, tomato sauce, etc) ",,
-Michigan Student Ministries ,Breakfast,"Jul 15, 2026 8:30:00 AM",,"1- Shellfish
+Michigan Student Ministries ,Breakfast,"Jul 15, 2026 8:15:00 AM",,"1- Shellfish
 1- Lactose intolerence
 3- Gluten
 1- Dye Free
@@ -109,6 +84,7 @@ Seasme -2 ",,
 Michigan Student Ministries ,Breakfast,"Jul 16, 2026 8:30:00 AM",,"GF- 8
 DF- 1
 Seasme -2 ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Lunch,"Jul 16, 2026 12:00:00 PM",,"GF- 8
 DF- 1
 Seasme -2 ",,
@@ -130,7 +106,6 @@ Seasme -2 ",,
 Michigan Student Ministries ,Snacks,"Jul 17, 2026 8:30:00 PM",,"GF- 8
 DF- 1
 Seasme -2 ",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 18, 2026 8:30:00 AM",,"GF- 8
 DF- 1
 Seasme -2 ",,
@@ -164,6 +139,7 @@ Sesame- 1
 GF- 6
 DF- 5
 ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Snacks,"Jul 20, 2026 9:00:00 PM",,"Gf/DF -3
 Sesame- 1
 GF- 6
@@ -184,7 +160,6 @@ Sesame- 1
 GF- 6
 DF- 5
 ",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Snacks,"Jul 21, 2026 9:00:00 PM",,"Gf/DF -3
 Sesame- 1
 GF- 6
@@ -219,6 +194,7 @@ Michigan Student Ministries ,Dinner,"Jul 23, 2026 5:00:00 PM",,"Pork- 1
 GF- 5
 DF-3
 GF/Df -1 ",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Snacks,"Jul 23, 2026 9:00:00 PM",,"Pork- 1
 GF- 5
 DF-3
@@ -239,8 +215,9 @@ Michigan Student Ministries ,Snacks,"Jul 24, 2026 9:00:00 PM",,"Pork- 1
 GF- 5
 DF-3
 GF/Df -1 ",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 25, 2026 8:00:00 AM",,"Pork- 1
 GF- 5
 DF-3
 GF/Df -1 ",,
+Tab - Northern Indiana Amish Boys (350 youth),Lunch,"Jul 27, 2026 11:45:00 AM",,,,
+Tab - Northern Indiana Amish Boys (350 youth),Dinner,"Jul 27, 2026 5:30:00 PM",,,,
