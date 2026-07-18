@@ -1,133 +1,359 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Breakfast,"Jul 17, 2026 8:30:00 AM",,"GF- 8
-DF- 1
-Seasme -2 ",,
-Michigan Student Ministries ,Lunch,"Jul 17, 2026 12:00:00 PM",,"GF- 8
-DF- 1
-Seasme -2 ",,
-Michigan Student Ministries ,Dinner,"Jul 17, 2026 5:30:00 PM",,"GF- 8
-DF- 1
-Seasme -2 ",,
-Michigan Student Ministries ,Snacks,"Jul 17, 2026 8:30:00 PM",,"GF- 8
-DF- 1
-Seasme -2 ",,
 Michigan Student Ministries ,Breakfast,"Jul 18, 2026 8:30:00 AM",,"GF- 8
 DF- 1
 Seasme -2 ",,
-Michigan Student Ministries ,Lunch,"Jul 19, 2026 12:00:00 PM",Welcome Hot dog Lunch this goes from 12-2,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
+Michigan Student Ministries ,Lunch,"Jul 19, 2026 12:00:00 PM",Welcome Hot dog Lunch this goes from 12-2,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
 ",,
-Michigan Student Ministries ,Dinner,"Jul 19, 2026 5:00:00 PM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
-",,
-Michigan Student Ministries ,Snacks,"Jul 19, 2026 9:00:00 PM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
-",,
-Michigan Student Ministries ,Breakfast,"Jul 20, 2026 8:00:00 AM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
-",,
-Michigan Student Ministries ,Lunch,"Jul 20, 2026 12:00:00 PM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
-",,
-Michigan Student Ministries ,Dinner,"Jul 20, 2026 5:00:00 PM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
-",,
-Michigan Student Ministries ,Snacks,"Jul 20, 2026 9:00:00 PM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
-",,
-Michigan Student Ministries ,Breakfast,"Jul 21, 2026 8:00:00 AM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
+Michigan Student Ministries ,Dinner,"Jul 19, 2026 5:00:00 PM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
 ",,
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Lunch,"Jul 21, 2026 12:00:00 PM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
+Michigan Student Ministries ,Snacks,"Jul 19, 2026 9:00:00 PM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
 ",,
-Michigan Student Ministries ,Dinner,"Jul 21, 2026 5:00:00 PM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
+Michigan Student Ministries ,Breakfast,"Jul 20, 2026 8:00:00 AM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
 ",,
-Michigan Student Ministries ,Snacks,"Jul 21, 2026 9:00:00 PM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
-",,
-Michigan Student Ministries ,Breakfast,"Jul 22, 2026 8:00:00 AM",,"Gf/DF -3
-Sesame- 1
-GF- 6
-DF- 5
-",,
-Michigan Student Ministries ,Lunch,"Jul 22, 2026 12:00:00 PM",Welcome Hot Dog Lunch 12-2pm ,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Dinner,"Jul 22, 2026 5:00:00 PM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Snacks,"Jul 22, 2026 9:00:00 PM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Breakfast,"Jul 23, 2026 8:00:00 AM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Lunch,"Jul 23, 2026 12:00:00 PM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Dinner,"Jul 23, 2026 5:00:00 PM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Snacks,"Jul 23, 2026 9:00:00 PM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Breakfast,"Jul 24, 2026 8:00:00 AM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Lunch,"Jul 24, 2026 12:00:00 PM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Dinner,"Jul 24, 2026 5:00:00 PM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Snacks,"Jul 24, 2026 9:00:00 PM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
-Michigan Student Ministries ,Breakfast,"Jul 25, 2026 8:00:00 AM",,"Pork- 1
-GF- 5
-DF-3
-GF/Df -1 ",,
+Michigan Student Ministries ,Lunch,"Jul 20, 2026 12:00:00 PM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
+",,
+Michigan Student Ministries ,Dinner,"Jul 20, 2026 5:00:00 PM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Michigan Student Ministries ,Snacks,"Jul 20, 2026 9:00:00 PM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
+",,
+Michigan Student Ministries ,Breakfast,"Jul 21, 2026 8:00:00 AM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Michigan Student Ministries ,Lunch,"Jul 21, 2026 12:00:00 PM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
+",,
+Michigan Student Ministries ,Dinner,"Jul 21, 2026 5:00:00 PM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Michigan Student Ministries ,Snacks,"Jul 21, 2026 9:00:00 PM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
+",,
+Michigan Student Ministries ,Breakfast,"Jul 22, 2026 8:00:00 AM",,"Artificial dyes / food coloring: (13)
+No food coloring (1)
+Gluten-free: (4)
+Dairy (milk intolerance): (3)
+No pork: (1)
+Nut-related restrictions: 10
+Pineapple: (1)
+Stawberries: (1)
+Corn: (1)
+Soy: (1)
+Nightshades (potatoes, tomatoes, peppers) : (1)
+No raw carrots: (1)
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Michigan Student Ministries ,Lunch,"Jul 22, 2026 12:00:00 PM",Welcome Hot Dog Lunch 12-2pm ,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+Michigan Student Ministries ,Dinner,"Jul 22, 2026 5:00:00 PM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Michigan Student Ministries ,Snacks,"Jul 22, 2026 9:00:00 PM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+Michigan Student Ministries ,Breakfast,"Jul 23, 2026 8:00:00 AM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Michigan Student Ministries ,Lunch,"Jul 23, 2026 12:00:00 PM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+Michigan Student Ministries ,Dinner,"Jul 23, 2026 5:00:00 PM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Michigan Student Ministries ,Snacks,"Jul 23, 2026 9:00:00 PM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+Michigan Student Ministries ,Breakfast,"Jul 24, 2026 8:00:00 AM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Michigan Student Ministries ,Lunch,"Jul 24, 2026 12:00:00 PM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+Michigan Student Ministries ,Dinner,"Jul 24, 2026 5:00:00 PM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Michigan Student Ministries ,Snacks,"Jul 24, 2026 9:00:00 PM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
+Michigan Student Ministries ,Breakfast,"Jul 25, 2026 8:00:00 AM",,"Gluten free – 1
+Gluten free & dairy free – 6
+Celiac disease (strict/no cross-contamination) – 3
+Dairy / Milk – 13
+Artificial Dyes – 4
+No tree nuts – 4
+Chicken allergy – 1
+Does not eat beef – 1
+Kidney-friendly: limit red meat – 1
+Fruit Restrictions – 2
+No raspberry – 1
+Coconut allergy (rash with ingestion or skin contact) – 2
+Cocoa – 2
+MSG – 2
+",,
 Tab - Northern Indiana Amish Boys (350 youth),Lunch,"Jul 27, 2026 11:45:00 AM",,,,
 Tab - Northern Indiana Amish Boys (350 youth),Dinner,"Jul 27, 2026 5:30:00 PM",,,,
 Tab - Northern Indiana Amish Boys (350 youth),Breakfast,"Jul 28, 2026 7:30:00 AM",,,,
 Tab - Northern Indiana Amish Boys (350 youth),Lunch,"Jul 28, 2026 11:30:00 AM",,,,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Tab - Northern Indiana Amish Boys (350 youth),Dinner,"Jul 28, 2026 4:30:00 PM",,,,
 Tab - Northern Indiana Amish Boys (350 youth),Breakfast,"Jul 29, 2026 7:30:00 AM",,,,
 Tab - Northern Indiana Amish Boys (350 youth),Lunch,"Jul 29, 2026 12:30:00 PM",,,,
@@ -141,7 +367,6 @@ Send menu as soon as possible.
 will send out allergy 
 Starbucks 
 "
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Woodside Bible Church,Dinner,"Jul 30, 2026 5:00:00 PM",,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
 will send out allergy 
@@ -158,6 +383,18 @@ will send out allergy
 Starbucks 
 "
 Woodside Bible Church,Dinner,"Jul 31, 2026 5:00:00 PM",,,,"departing meal- Tenders and fries.
+Send menu as soon as possible.
+will send out allergy 
+Starbucks 
+"
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Woodside Bible Church,Lunch,"Aug 1, 2026 12:15:00 PM",,,,"departing meal- Tenders and fries.
+Send menu as soon as possible.
+will send out allergy 
+Starbucks 
+"
+Troy High School Band,Dinner,"Aug 1, 2026 5:00:00 PM",,,,
+Woodside Bible Church,Breakfast,"Aug 1, 2026 8:15:00 PM",,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
 will send out allergy 
 Starbucks 
