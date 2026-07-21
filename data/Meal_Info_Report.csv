@@ -1,58 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Breakfast,"Jul 20, 2026 8:00:00 AM",,"Artificial dyes / food coloring: (13)
-No food coloring (1)
-Gluten-free: (4)
-Dairy (milk intolerance): (3)
-No pork: (1)
-Nut-related restrictions: 10
-Pineapple: (1)
-Stawberries: (1)
-Corn: (1)
-Soy: (1)
-Nightshades (potatoes, tomatoes, peppers) : (1)
-No raw carrots: (1)
-",,
-Michigan Student Ministries ,Lunch,"Jul 20, 2026 12:00:00 PM",,"Artificial dyes / food coloring: (13)
-No food coloring (1)
-Gluten-free: (4)
-Dairy (milk intolerance): (3)
-No pork: (1)
-Nut-related restrictions: 10
-Pineapple: (1)
-Stawberries: (1)
-Corn: (1)
-Soy: (1)
-Nightshades (potatoes, tomatoes, peppers) : (1)
-No raw carrots: (1)
-",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Dinner,"Jul 20, 2026 5:00:00 PM",,"Artificial dyes / food coloring: (13)
-No food coloring (1)
-Gluten-free: (4)
-Dairy (milk intolerance): (3)
-No pork: (1)
-Nut-related restrictions: 10
-Pineapple: (1)
-Stawberries: (1)
-Corn: (1)
-Soy: (1)
-Nightshades (potatoes, tomatoes, peppers) : (1)
-No raw carrots: (1)
-",,
-Michigan Student Ministries ,Snacks,"Jul 20, 2026 9:00:00 PM",,"Artificial dyes / food coloring: (13)
-No food coloring (1)
-Gluten-free: (4)
-Dairy (milk intolerance): (3)
-No pork: (1)
-Nut-related restrictions: 10
-Pineapple: (1)
-Stawberries: (1)
-Corn: (1)
-Soy: (1)
-Nightshades (potatoes, tomatoes, peppers) : (1)
-No raw carrots: (1)
-",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 21, 2026 8:00:00 AM",,"Artificial dyes / food coloring: (13)
 No food coloring (1)
 Gluten-free: (4)
@@ -362,7 +308,13 @@ Troy High School Band,Dinner,"Aug 2, 2026 5:00:00 PM",,,,
 Dundee High School,Dinner,"Aug 2, 2026 5:30:00 PM",,,,
 Dundee High School,Breakfast,"Aug 3, 2026 8:00:00 AM",,,,
 Troy High School Band,Breakfast,"Aug 3, 2026 8:00:00 AM",,,,
-Troy High School Band,Lunch,"Aug 3, 2026 12:00:00 PM",,,,
 Dundee High School,Lunch,"Aug 3, 2026 12:00:00 PM",,,,
+Troy High School Band,Lunch,"Aug 3, 2026 12:00:00 PM",,,,
 Troy High School Band,Dinner,"Aug 3, 2026 5:00:00 PM",,,,
 Dundee High School,Dinner,"Aug 3, 2026 5:15:00 PM",,,,
+Dundee High School,Breakfast,"Aug 4, 2026 8:00:00 AM",,,,
+Troy High School Band,Breakfast,"Aug 4, 2026 8:00:00 AM",,,,
+Troy High School Band,Lunch,"Aug 4, 2026 12:00:00 PM",,,,
+Dundee High School,Lunch,"Aug 4, 2026 12:00:00 PM",,,,
+Troy High School Band,Dinner,"Aug 4, 2026 5:00:00 PM",,,,
+Dundee High School,Dinner,"Aug 4, 2026 5:15:00 PM",,,,
