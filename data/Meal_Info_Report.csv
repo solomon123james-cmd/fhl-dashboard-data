@@ -1,64 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Breakfast,"Jul 22, 2026 8:00:00 AM",,"Artificial dyes / food coloring: (13)
-No food coloring (1)
-Gluten-free: (4)
-Dairy (milk intolerance): (3)
-No pork: (1)
-Nut-related restrictions: 10
-Pineapple: (1)
-Stawberries: (1)
-Corn: (1)
-Soy: (1)
-Nightshades (potatoes, tomatoes, peppers) : (1)
-No raw carrots: (1)
-",,
-Michigan Student Ministries ,Lunch,"Jul 22, 2026 12:00:00 PM",Welcome Hot Dog Lunch 12-2pm ,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Dinner,"Jul 22, 2026 5:00:00 PM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-Michigan Student Ministries ,Snacks,"Jul 22, 2026 9:00:00 PM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 23, 2026 8:00:00 AM",,"Gluten free – 1
 Gluten free & dairy free – 6
 Celiac disease (strict/no cross-contamination) – 3
@@ -205,13 +145,13 @@ Tab - Northern Indiana Amish Boys (350 youth),Lunch,"Jul 28, 2026 12:00:00 PM",,
 Tab - Northern Indiana Amish Boys (350 youth),Dinner,"Jul 28, 2026 5:00:00 PM",,,None,
 Tab - Northern Indiana Amish Boys (350 youth),Breakfast,"Jul 29, 2026 8:00:00 AM",,,None,
 Tab - Northern Indiana Amish Boys (350 youth),Lunch,"Jul 29, 2026 11:30:00 AM",,,None,
-Woodside Bible Church,Lunch,"Jul 29, 2026 12:00:00 PM",,,,"departing meal- Tenders and fries.
+Woodside Bible Church,Dinner,"Jul 29, 2026 5:00:00 PM",We will order something,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
 will send out allergy 
 likes the Starbucks egg muffins
 "
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Woodside Bible Church,Dinner,"Jul 29, 2026 5:00:00 PM",We will order something,,,"departing meal- Tenders and fries.
+Woodside Bible Church,Breakfast,"Jul 30, 2026 8:30:00 AM",,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
 will send out allergy 
 likes the Starbucks egg muffins
@@ -248,13 +188,13 @@ likes the Starbucks egg muffins
 "
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Troy High School Band,Breakfast,"Aug 1, 2026 8:00:00 AM",Team,,,
-Troy High School Band,Lunch,"Aug 1, 2026 12:00:00 PM",Team,,,
-Troy High School Band,Dinner,"Aug 1, 2026 5:00:00 PM",,,,
-Woodside Bible Church,Lunch,"Aug 1, 2026 11:45:00 PM",,,,"departing meal- Tenders and fries.
+Woodside Bible Church,Lunch,"Aug 1, 2026 11:45:00 AM",,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
 will send out allergy 
 likes the Starbucks egg muffins
 "
+Troy High School Band,Lunch,"Aug 1, 2026 12:00:00 PM",Team,,,
+Troy High School Band,Dinner,"Aug 1, 2026 5:00:00 PM",,,,
 Troy High School Band,Breakfast,"Aug 2, 2026 7:00:00 AM",,,,
 Troy High School Band,Lunch,"Aug 2, 2026 12:00:00 PM",,,,
 Troy High School Band,Dinner,"Aug 2, 2026 5:00:00 PM",,,,
@@ -278,3 +218,8 @@ Troy High School Band,Lunch,"Aug 5, 2026 12:00:00 PM",,,,
 Troy High School Band,Dinner,"Aug 5, 2026 5:00:00 PM",,,,
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Dundee High School,Dinner,"Aug 5, 2026 5:15:00 PM",,,,
+Troy High School Band,Breakfast,"Aug 6, 2026 7:00:00 AM",,,,
+Dundee High School,Breakfast,"Aug 6, 2026 8:00:00 AM",,,,
+Dundee High School,Lunch,"Aug 6, 2026 12:00:00 PM",,,,
+Troy High School Band,Lunch,"Aug 6, 2026 12:00:00 PM",,,,
+Dundee High School,Dinner,"Aug 6, 2026 5:15:00 PM",,,,
