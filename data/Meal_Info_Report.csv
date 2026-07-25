@@ -1,128 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Breakfast,"Jul 23, 2026 8:00:00 AM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-Michigan Student Ministries ,Lunch,"Jul 23, 2026 12:00:00 PM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Dinner,"Jul 23, 2026 5:00:00 PM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-Michigan Student Ministries ,Snacks,"Jul 23, 2026 9:00:00 PM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Breakfast,"Jul 24, 2026 8:00:00 AM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-Michigan Student Ministries ,Lunch,"Jul 24, 2026 12:00:00 PM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Dinner,"Jul 24, 2026 5:00:00 PM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-Michigan Student Ministries ,Snacks,"Jul 24, 2026 9:00:00 PM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Michigan Student Ministries ,Breakfast,"Jul 25, 2026 8:00:00 AM",,"Gluten free – 1
 Gluten free & dairy free – 6
 Celiac disease (strict/no cross-contamination) – 3
@@ -223,3 +99,12 @@ Dundee High School,Breakfast,"Aug 6, 2026 8:00:00 AM",,,,
 Dundee High School,Lunch,"Aug 6, 2026 12:00:00 PM",,,,
 Troy High School Band,Lunch,"Aug 6, 2026 12:00:00 PM",,,,
 Dundee High School,Dinner,"Aug 6, 2026 5:15:00 PM",,,,
+Dundee High School,Breakfast,"Aug 7, 2026 8:00:00 AM",,,,
+Troy High School Band,Breakfast,"Aug 7, 2026 8:00:00 AM",,,,
+Dundee High School,Lunch,"Aug 7, 2026 12:00:00 PM",,,,
+Troy High School Band,Lunch,"Aug 7, 2026 12:00:00 PM",,,,
+Kingdom Builders Christian Center,Dinner,"Aug 7, 2026 5:00:00 PM",,,,
+Kingdom Builders Christian Center,Breakfast,"Aug 8, 2026 8:00:00 AM",,,,
+Kingdom Builders Christian Center,Lunch,"Aug 8, 2026 12:00:00 PM",,,,
+Queens Church,Lunch,"Aug 8, 2026 12:00:00 PM",1 gf,,one gluten free student,
+Kingdom Builders Christian Center,Dinner,"Aug 8, 2026 5:00:00 PM",,,,
