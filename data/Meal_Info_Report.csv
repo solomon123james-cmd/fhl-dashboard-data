@@ -1,19 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Michigan Student Ministries ,Breakfast,"Jul 25, 2026 8:00:00 AM",,"Gluten free – 1
-Gluten free & dairy free – 6
-Celiac disease (strict/no cross-contamination) – 3
-Dairy / Milk – 13
-Artificial Dyes – 4
-No tree nuts – 4
-Chicken allergy – 1
-Does not eat beef – 1
-Kidney-friendly: limit red meat – 1
-Fruit Restrictions – 2
-No raspberry – 1
-Coconut allergy (rash with ingestion or skin contact) – 2
-Cocoa – 2
-MSG – 2
-",,
 Tab - Northern Indiana Amish Boys (350 youth),Lunch,"Jul 27, 2026 11:45:00 AM",,,None,
 Tab - Northern Indiana Amish Boys (350 youth),Dinner,"Jul 27, 2026 5:30:00 PM",,,None,
 Tab - Northern Indiana Amish Boys (350 youth),Breakfast,"Jul 28, 2026 8:00:00 AM",,,None,
@@ -26,7 +11,6 @@ Send menu as soon as possible.
 will send out allergy 
 likes the Starbucks egg muffins
 "
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Woodside Bible Church,Breakfast,"Jul 30, 2026 8:30:00 AM",,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
 will send out allergy 
@@ -42,6 +26,7 @@ Send menu as soon as possible.
 will send out allergy 
 likes the Starbucks egg muffins
 "
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Woodside Bible Church,Breakfast,"Jul 31, 2026 8:00:00 AM",,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
 will send out allergy 
@@ -62,7 +47,6 @@ Send menu as soon as possible.
 will send out allergy 
 likes the Starbucks egg muffins
 "
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Troy High School Band,Breakfast,"Aug 1, 2026 8:00:00 AM",Team,,,
 Woodside Bible Church,Lunch,"Aug 1, 2026 11:45:00 AM",,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
@@ -76,6 +60,7 @@ Troy High School Band,Lunch,"Aug 2, 2026 12:00:00 PM",,,,
 Troy High School Band,Dinner,"Aug 2, 2026 5:00:00 PM",,,,
 Dundee High School,Dinner,"Aug 2, 2026 5:30:00 PM",,,,
 Troy High School Band,Breakfast,"Aug 3, 2026 7:00:00 AM",,,,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Dundee High School,Breakfast,"Aug 3, 2026 8:00:00 AM",,,,
 Dundee High School,Lunch,"Aug 3, 2026 12:00:00 PM",,,,
 Troy High School Band,Lunch,"Aug 3, 2026 12:00:00 PM",,,,
@@ -92,7 +77,6 @@ Dundee High School,Breakfast,"Aug 5, 2026 8:00:00 AM",,,,
 Dundee High School,Lunch,"Aug 5, 2026 12:00:00 PM",,,,
 Troy High School Band,Lunch,"Aug 5, 2026 12:00:00 PM",,,,
 Troy High School Band,Dinner,"Aug 5, 2026 5:00:00 PM",,,,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Dundee High School,Dinner,"Aug 5, 2026 5:15:00 PM",,,,
 Troy High School Band,Breakfast,"Aug 6, 2026 7:00:00 AM",,,,
 Dundee High School,Breakfast,"Aug 6, 2026 8:00:00 AM",,,,
@@ -105,6 +89,7 @@ Dundee High School,Lunch,"Aug 7, 2026 12:00:00 PM",,,,
 Troy High School Band,Lunch,"Aug 7, 2026 12:00:00 PM",,,,
 Kingdom Builders Christian Center,Dinner,"Aug 7, 2026 5:00:00 PM",,,,
 Kingdom Builders Christian Center,Breakfast,"Aug 8, 2026 8:00:00 AM",,,,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Kingdom Builders Christian Center,Lunch,"Aug 8, 2026 12:00:00 PM",,,,
 Queens Church,Lunch,"Aug 8, 2026 12:00:00 PM",1 gf,,one gluten free student,
 Kingdom Builders Christian Center,Dinner,"Aug 8, 2026 5:00:00 PM",,,,
