@@ -1,107 +1,49 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Woodside Bible Church,Breakfast,"Jul 31, 2026 8:00:00 AM",,,,"departing meal- Tenders and fries.
-Send menu as soon as possible.
-will send out allergy 
-likes the Starbucks egg muffins
-"
-Woodside Bible Church,Lunch,"Jul 31, 2026 12:15:00 PM",,,,"departing meal- Tenders and fries.
-Send menu as soon as possible.
-will send out allergy 
-likes the Starbucks egg muffins
-"
-Woodside Bible Church,Dinner,"Jul 31, 2026 5:00:00 PM",,,,"departing meal- Tenders and fries.
-Send menu as soon as possible.
-will send out allergy 
-likes the Starbucks egg muffins
-"
+Troy High School Band,Breakfast,"Aug 1, 2026 8:00:00 AM",Team,,,
 Woodside Bible Church,Breakfast,"Aug 1, 2026 8:00:00 AM",,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
 will send out allergy 
 likes the Starbucks egg muffins
 "
-Troy High School Band,Breakfast,"Aug 1, 2026 8:00:00 AM",Team,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
 Woodside Bible Church,Lunch,"Aug 1, 2026 11:45:00 AM",,,,"departing meal- Tenders and fries.
 Send menu as soon as possible.
 will send out allergy 
 likes the Starbucks egg muffins
 "
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Troy High School Band,Lunch,"Aug 1, 2026 12:00:00 PM",Team,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
-Troy High School Band,Dinner,"Aug 1, 2026 5:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
-Troy High School Band,Breakfast,"Aug 2, 2026 7:00:00 AM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
-Troy High School Band,Lunch,"Aug 2, 2026 12:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Troy High School Band,Dinner,"Aug 2, 2026 5:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Lunch,"Aug 1, 2026 12:00:00 PM",Team,,,
+Troy High School Band,Dinner,"Aug 1, 2026 5:00:00 PM",,,,
+Troy High School Band,Breakfast,"Aug 2, 2026 7:00:00 AM",,,,
+Troy High School Band,Lunch,"Aug 2, 2026 12:00:00 PM",,,,
+Troy High School Band,Dinner,"Aug 2, 2026 5:00:00 PM",,,,
 Dundee High School,Dinner,"Aug 2, 2026 5:30:00 PM",,,,
-Troy High School Band,Breakfast,"Aug 3, 2026 7:00:00 AM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Breakfast,"Aug 3, 2026 7:00:00 AM",,,,
 Dundee High School,Breakfast,"Aug 3, 2026 8:00:00 AM",,,,
 Dundee High School,Lunch,"Aug 3, 2026 12:00:00 PM",,,,
-Troy High School Band,Lunch,"Aug 3, 2026 12:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Troy High School Band,Dinner,"Aug 3, 2026 5:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Lunch,"Aug 3, 2026 12:00:00 PM",,,,
+Troy High School Band,Dinner,"Aug 3, 2026 5:00:00 PM",,,,
 Dundee High School,Dinner,"Aug 3, 2026 5:15:00 PM",,,,
-Troy High School Band,Breakfast,"Aug 4, 2026 7:00:00 AM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Breakfast,"Aug 4, 2026 7:00:00 AM",,,,
 Dundee High School,Breakfast,"Aug 4, 2026 8:00:00 AM",,,,
 Dundee High School,Lunch,"Aug 4, 2026 12:00:00 PM",,,,
-Troy High School Band,Lunch,"Aug 4, 2026 12:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Troy High School Band,Dinner,"Aug 4, 2026 5:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Lunch,"Aug 4, 2026 12:00:00 PM",,,,
+Troy High School Band,Dinner,"Aug 4, 2026 5:00:00 PM",,,,
 Dundee High School,Dinner,"Aug 4, 2026 5:15:00 PM",,,,
-Troy High School Band,Breakfast,"Aug 5, 2026 7:00:00 AM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Breakfast,"Aug 5, 2026 7:00:00 AM",,,,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Dundee High School,Breakfast,"Aug 5, 2026 8:00:00 AM",,,,
 Dundee High School,Lunch,"Aug 5, 2026 12:00:00 PM",,,,
-Troy High School Band,Lunch,"Aug 5, 2026 12:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Troy High School Band,Dinner,"Aug 5, 2026 5:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Lunch,"Aug 5, 2026 12:00:00 PM",,,,
+Troy High School Band,Dinner,"Aug 5, 2026 5:00:00 PM",,,,
 Dundee High School,Dinner,"Aug 5, 2026 5:15:00 PM",,,,
-Troy High School Band,Breakfast,"Aug 6, 2026 7:00:00 AM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Breakfast,"Aug 6, 2026 7:00:00 AM",,,,
 Dundee High School,Breakfast,"Aug 6, 2026 8:00:00 AM",,,,
 Dundee High School,Lunch,"Aug 6, 2026 12:00:00 PM",,,,
-Troy High School Band,Lunch,"Aug 6, 2026 12:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Lunch,"Aug 6, 2026 12:00:00 PM",,,,
 Dundee High School,Dinner,"Aug 6, 2026 5:15:00 PM",,,,
 Dundee High School,Breakfast,"Aug 7, 2026 8:00:00 AM",,,,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Troy High School Band,Breakfast,"Aug 7, 2026 8:00:00 AM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Breakfast,"Aug 7, 2026 8:00:00 AM",,,,
 Dundee High School,Lunch,"Aug 7, 2026 12:00:00 PM",,,,
-Troy High School Band,Lunch,"Aug 7, 2026 12:00:00 PM",,,"DF (3); Dairy Allergy (1); Egg Allergy (2); Shellfish Allergy (4); Seafood Allergy (1); Soy Allergy (1); Sesame Allergy (2); Banana Allergy (2); Melon Allergy (1); Chocolate Allergy (1)
-
-Have a pork alternative",
+Troy High School Band,Lunch,"Aug 7, 2026 12:00:00 PM",,,,
 Kingdom Builders Christian Center,Dinner,"Aug 7, 2026 5:00:00 PM",,,,
 Kingdom Builders Christian Center,Breakfast,"Aug 8, 2026 8:00:00 AM",,,,
 Kingdom Builders Christian Center,Lunch,"Aug 8, 2026 12:00:00 PM",,,,
@@ -113,3 +55,6 @@ Nehemiah's Temple,Breakfast,"Aug 12, 2026 8:00:00 AM",,,,
 Nehemiah's Temple,Lunch,"Aug 12, 2026 12:00:00 PM",,,,
 Nehemiah's Temple,Dinner,"Aug 12, 2026 5:00:00 PM",,,,
 Hope Arabic Church,Dinner,"Aug 14, 2026 6:00:00 PM",,,,
+Hope Arabic Church,Breakfast,"Aug 15, 2026 8:00:00 AM",,,,
+Hope Arabic Church,Lunch,"Aug 15, 2026 12:00:00 PM",,,,
+Hope Arabic Church,Dinner,"Aug 15, 2026 5:30:00 PM",,,,
