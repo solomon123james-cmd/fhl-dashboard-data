@@ -1,7 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Troy High School Band,Breakfast,"Aug 4, 2026 7:00:00 AM",,,,
-Troy High School Band,Lunch,"Aug 4, 2026 12:00:00 PM",,,,
-Troy High School Band,Dinner,"Aug 4, 2026 5:00:00 PM",,,,
 Troy High School Band,Breakfast,"Aug 5, 2026 7:00:00 AM",,,,
 Troy High School Band,Lunch,"Aug 5, 2026 12:00:00 PM",,,,
 Troy High School Band,Dinner,"Aug 5, 2026 5:00:00 PM",,,,
@@ -22,9 +19,9 @@ Dundee High School,Breakfast,"Aug 9, 2026 8:00:00 AM",,,"3 Lactose, 8 Gluten-1 i
 Dundee High School,Lunch,"Aug 9, 2026 12:30:00 PM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
 Dundee High School,Dinner,"Aug 9, 2026 5:15:00 PM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
 Dundee High School,Breakfast,"Aug 10, 2026 8:00:00 AM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Dundee High School,Lunch,"Aug 10, 2026 12:30:00 PM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
 Dundee High School,Dinner,"Aug 10, 2026 5:15:00 PM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Dundee High School,Breakfast,"Aug 11, 2026 8:00:00 AM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
 Nehemiah's Temple,Lunch,"Aug 11, 2026 12:00:00 PM",,,Nut and Shellfish,
 Dundee High School,Lunch,"Aug 11, 2026 12:30:00 PM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
