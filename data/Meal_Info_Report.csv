@@ -1,11 +1,6 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Dundee High School,Breakfast,"Aug 11, 2026 8:00:00 AM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
-Nehemiah's Temple,Lunch,"Aug 11, 2026 12:00:00 PM",,,Nut and Shellfish,
-Dundee High School,Lunch,"Aug 11, 2026 12:30:00 PM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
-Nehemiah's Temple,Dinner,"Aug 11, 2026 5:00:00 PM",,,Nut and Shellfish,
-Dundee High School,Dinner,"Aug 11, 2026 5:15:00 PM",PIZZA DINNER,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
-Dundee High School,Breakfast,"Aug 12, 2026 8:00:00 AM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
 Nehemiah's Temple,Breakfast,"Aug 12, 2026 8:00:00 AM",,,Nut and Shellfish,
+Dundee High School,Breakfast,"Aug 12, 2026 8:00:00 AM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
 Nehemiah's Temple,Lunch,"Aug 12, 2026 12:00:00 PM",,,Nut and Shellfish,
 Dundee High School,Lunch,"Aug 12, 2026 12:30:00 PM",,,"3 Lactose, 8 Gluten-1 is Celiac,  5 Peanut allergies ",
 Nehemiah's Temple,Dinner,"Aug 12, 2026 5:00:00 PM",,,Nut and Shellfish,
@@ -22,7 +17,7 @@ Ann Arbor Hope Church,Lunch,"Aug 22, 2026 12:00:00 PM",,Would Love an asian Dinn
 Ann Arbor Hope Church,Lunch,"Aug 22, 2026 12:00:00 PM",,Would Love an asian Dinner Saturday night ,,
 International Assembly of God,Lunch,"Aug 22, 2026 12:00:00 PM",,,,
 International Assembly of God,Dinner,"Aug 22, 2026 5:00:00 PM",,,,
-International Assembly of God,Breakfast,"Aug 23, 2026 8:00:00 AM",,,,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Ann Arbor Hope Church,Breakfast,"Aug 23, 2026 8:00:00 AM",,Would Love an asian Dinner Saturday night ,,
+International Assembly of God,Breakfast,"Aug 23, 2026 8:00:00 AM",,,,
 Ann Arbor Hope Church,Lunch,"Aug 23, 2026 12:00:00 PM",,Would Love an asian Dinner Saturday night ,,
+Jackson Christian School,Dinner,"Aug 26, 2026 5:00:00 PM",,,,
