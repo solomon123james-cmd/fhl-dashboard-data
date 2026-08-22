@@ -1,7 +1,4 @@
 OrgName,BookingName,ActualNumber,ArrivalDate,ArrivalTime,DepartureDate,DepartureTime,AttendeeCategory
-Chi Alpha UMich,Chi Alpha UMich CC Retreat,19,"Aug 21, 2026",12:00:00 PM,"Aug 23, 2026",4:00:00 PM,
-International Assembly of God,International Assembly of God,76,"Aug 21, 2026",4:00:00 PM,"Aug 23, 2026",10:00:00 AM,
-Ann Arbor Hope Church,Ann Arbor Hope Church Retreat,82,"Aug 21, 2026",5:00:00 PM,"Aug 23, 2026",2:30:00 PM,
 R&R Bookings,Pastor's Cottage- Bonnie & Lee Pait ,2,"Aug 23, 2026",10:00:00 AM,"Aug 29, 2026",2:00:00 PM,Adults
 R&R Bookings,Guest Cottage - Chad Deerman,,"Aug 26, 2026",5:00:00 PM,"Aug 27, 2026",2:00:00 PM,
 CRU - UMich,CRU UMICH,,"Aug 26, 2026",4:00:00 PM,"Aug 27, 2026",10:00:00 AM,
