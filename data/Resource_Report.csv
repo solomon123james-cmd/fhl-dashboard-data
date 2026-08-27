@@ -1,9 +1,4 @@
 BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
-Jackson Christian School Senior Class Retreat,Antioch ,"Aug 26, 2026 12:00:00 AM","Aug 28, 2026 11:59:59 PM",
-Jackson Christian School Senior Class Retreat,Conference Room B,"Aug 26, 2026 12:00:00 AM","Aug 28, 2026 11:59:59 PM",
-CRU UMICH,Island,"Aug 26, 2026 4:00:00 PM","Aug 27, 2026 10:00:00 AM",
-CRU UMICH,Bonfire FHL WAY ,"Aug 26, 2026 8:00:00 PM","Aug 26, 2026 10:00:00 PM",
-CRU UMICH,Indoor Pool and Hot tub,"Aug 26, 2026 9:00:00 PM","Aug 26, 2026 11:00:00 PM",~20 adult attendees per planning form
 Jackson Christian School Senior Class Retreat,Indoor Pool and Hot tub,"Aug 27, 2026 1:00:00 PM","Aug 27, 2026 3:00:00 PM",
 Jackson Christian School Senior Class Retreat,Bonfire TAB,"Aug 27, 2026 8:00:00 PM","Aug 27, 2026 10:00:00 PM",Adult attendee: Laura McNeil
 Jackson Christian School Senior Class Retreat,High Ropes,"Aug 28, 2026 10:00:00 AM","Aug 28, 2026 12:00:00 PM",
@@ -13,19 +8,17 @@ Crossroads Community Baptist Church,Conference Cottage,"Aug 29, 2026 1:00:00 PM"
 Crossroads Community Baptist Church,Indoor Pool and Hot tub,"Aug 29, 2026 1:00:00 PM","Aug 29, 2026 3:00:00 PM",
 Novi Christian Academy Retreat,Tabernacle ,"Sep 1, 2026 11:00:00 AM","Sep 3, 2026 2:00:00 PM",
 Novi Christian Academy Retreat,Clay Gym,"Sep 1, 2026 11:30:00 AM","Sep 1, 2026 12:00:00 PM",Per submitted planning form (8/23/26)
-Novi Christian Academy Retreat,Lakefront ,"Sep 1, 2026 3:00:00 PM","Sep 1, 2026 5:00:00 PM",Per submitted planning form (8/23/26)
 Novi Christian Academy Retreat,Indoor Pool and Hot tub,"Sep 1, 2026 3:00:00 PM","Sep 1, 2026 5:00:00 PM",Per submitted planning form (8/23/26)
+Novi Christian Academy Retreat,Lakefront ,"Sep 1, 2026 3:00:00 PM","Sep 1, 2026 5:00:00 PM",Per submitted planning form (8/23/26)
 Novi Christian Academy Retreat,Clay Gym,"Sep 1, 2026 3:15:00 PM","Sep 1, 2026 5:15:00 PM",Per submitted planning form (8/23/26)
-Novi Christian Academy Retreat,Outdoor Pool,"Sep 1, 2026 3:15:00 PM","Sep 1, 2026 5:15:00 PM",Per submitted planning form (8/23/26)
 Novi Christian Academy Retreat,Clay Gym,"Sep 2, 2026 11:15:00 AM","Sep 2, 2026 12:00:00 PM",Per submitted planning form (8/23/26)
-BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
-Novi Christian Academy Retreat,Outdoor Pool,"Sep 2, 2026 1:00:00 PM","Sep 2, 2026 3:00:00 PM",Per submitted planning form (8/23/26)
 Novi Christian Academy Retreat,Lakefront ,"Sep 2, 2026 1:00:00 PM","Sep 2, 2026 3:00:00 PM",Per submitted planning form (8/23/26)
-Novi Christian Academy Retreat,Clay Gym,"Sep 2, 2026 1:00:00 PM","Sep 2, 2026 5:00:00 PM",Per submitted planning form (8/23/26)
 Novi Christian Academy Retreat,Indoor Pool and Hot tub,"Sep 2, 2026 1:00:00 PM","Sep 2, 2026 3:00:00 PM",Per submitted planning form (8/23/26)
+Novi Christian Academy Retreat,Clay Gym,"Sep 2, 2026 1:00:00 PM","Sep 2, 2026 5:00:00 PM",Per submitted planning form (8/23/26)
 Novi Christian Academy Retreat,Clay Gym,"Sep 3, 2026 12:45:00 PM","Sep 3, 2026 1:30:00 PM",Per submitted planning form (8/23/26)
 Red Cedar Church,Outdoor Pool,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,Lakefront ,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
+BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Red Cedar Church,Tabernacle ,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,Rock Wall ,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,Boats,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
@@ -34,3 +27,4 @@ Red Cedar Church,Clay Gym,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,High Ropes,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,Indoor Pool and Hot tub,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",Per Sherri's activity schedule (email 8/19)
 Red Cedar Church,Zipline ,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
+Island - True Testimonial of Jesus (25 Men),Island,"Sep 11, 2026 12:00:00 AM","Sep 13, 2026 11:59:59 PM",
