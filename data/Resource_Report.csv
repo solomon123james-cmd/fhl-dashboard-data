@@ -1,9 +1,4 @@
 BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
-Jackson Christian School Senior Class Retreat,High Ropes,"Aug 28, 2026 10:00:00 AM","Aug 28, 2026 12:00:00 PM",
-Crossroads Community Baptist Church,Island,"Aug 28, 2026 4:00:00 PM","Aug 30, 2026 10:00:00 AM",
-Crossroads Community Baptist Church,Bonfire TAB,"Aug 28, 2026 7:00:00 PM","Aug 28, 2026 8:00:00 PM",
-Crossroads Community Baptist Church,Conference Cottage,"Aug 29, 2026 1:00:00 PM","Aug 29, 2026 2:00:00 PM",Crafts session for group
-Crossroads Community Baptist Church,Indoor Pool and Hot tub,"Aug 29, 2026 1:00:00 PM","Aug 29, 2026 3:00:00 PM",
 Novi Christian Academy Retreat,Tabernacle ,"Sep 1, 2026 11:00:00 AM","Sep 3, 2026 2:00:00 PM",
 Novi Christian Academy Retreat,Clay Gym,"Sep 1, 2026 11:30:00 AM","Sep 1, 2026 12:00:00 PM",Per submitted planning form (8/23/26)
 Novi Christian Academy Retreat,Indoor Pool and Hot tub,"Sep 1, 2026 3:00:00 PM","Sep 1, 2026 5:00:00 PM",Per submitted planning form (8/23/26)
@@ -19,12 +14,12 @@ Red Cedar Church,Lakefront ,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,Tabernacle ,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,Rock Wall ,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,Boats,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
-BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Red Cedar Church,Antioch ,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,Clay Gym,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,High Ropes,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
 Red Cedar Church,Indoor Pool and Hot tub,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",Per Sherri's activity schedule (email 8/19)
 Red Cedar Church,Zipline ,"Sep 4, 2026 12:00:00 AM","Sep 6, 2026 11:59:59 PM",
+BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Ekklesia Church Ministries,Conference Room A,"Sep 4, 2026 3:00:00 PM","Sep 6, 2026 10:00:00 AM","Chairs: Classroom style. Using amplified equipment - may disrupt nearby spaces. AV: sound system (own), 1 mic, LCD projector, computer connection, TV, podium, MP3 hookup. Setup 9/4 3:00-3:30pm. Meeting 9/4 4:45-5:00pm. Teardown 9/6 9:00-10:00am."
 Ekklesia Church Ministries,Clay Gym,"Sep 4, 2026 6:30:00 PM","Sep 4, 2026 9:00:00 PM",
 Ekklesia Church Ministries,Indoor Pool and Hot tub,"Sep 5, 2026 10:30:00 AM","Sep 5, 2026 12:30:00 PM",
@@ -34,3 +29,4 @@ Ekklesia Church Ministries,Go Karts,"Sep 5, 2026 4:00:00 PM","Sep 5, 2026 5:00:0
 Ekklesia Church Ministries,Bonfire TAB,"Sep 5, 2026 8:30:00 PM","Sep 5, 2026 10:00:00 PM",Adult attendee: Michelle Hall. Location not specified on planning form - confirm with group.
 Island - True Testimonial of Jesus (25 Men),Island,"Sep 11, 2026 12:00:00 AM","Sep 13, 2026 11:59:59 PM",
 First Church Young Adults,Clay Gym,"Sep 11, 2026 4:00:00 PM","Sep 11, 2026 7:00:00 PM",
+Light of the World Academy 2026,Island,"Sep 16, 2026 12:00:00 AM","Sep 17, 2026 11:59:59 PM",
