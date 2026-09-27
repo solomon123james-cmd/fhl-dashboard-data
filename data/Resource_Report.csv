@@ -1,16 +1,4 @@
 BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
-CTC Ann Arbor Church Retreat,Mezzanine,"Sep 25, 2026 11:00:00 AM","Sep 27, 2026 10:00:00 AM",
-CTC Ann Arbor Church Retreat,Tabernacle ,"Sep 25, 2026 11:00:00 AM","Sep 27, 2026 10:00:00 AM",
-CTC Ann Arbor Church Retreat,Conference Room A,"Sep 25, 2026 11:00:00 AM","Sep 27, 2026 10:00:00 AM",
-Ann Arbor Hope Church Retreat,Chalet,"Sep 25, 2026 11:00:00 AM","Sep 26, 2026 2:00:00 PM",
-BRAVE Advance Men's Retreat,Island,"Sep 25, 2026 4:00:00 PM","Sep 27, 2026 10:00:00 AM",
-BRAVE Advance Men's Retreat,Conference Room B,"Sep 25, 2026 4:00:00 PM","Sep 27, 2026 10:00:00 AM",
-Ann Arbor Hope Church Retreat,Clay Gym,"Sep 25, 2026 8:00:00 PM","Sep 25, 2026 9:00:00 PM",
-Ann Arbor Hope Church Retreat,Clay Gym,"Sep 26, 2026 1:00:00 PM","Sep 26, 2026 2:30:00 PM",
-BRAVE Advance Men's Retreat,Clay Gym,"Sep 26, 2026 2:30:00 PM","Sep 26, 2026 4:30:00 PM",
-BRAVE Advance Men's Retreat,Indoor Pool and Hot tub,"Sep 26, 2026 2:30:00 PM","Sep 26, 2026 4:30:00 PM",
-BRAVE Advance Men's Retreat,Go Karts,"Sep 26, 2026 2:30:00 PM","Sep 26, 2026 4:30:00 PM",
-CTC Ann Arbor Church Retreat,Bonfire TAB,"Sep 26, 2026 9:30:00 PM","Sep 26, 2026 11:00:00 PM",
 International Student Ministries Soul Care Retreat,Island,"Oct 1, 2026 4:00:00 PM","Oct 4, 2026 1:00:00 PM",
 International Student Ministries Soul Care Retreat,Clay Gym,"Oct 1, 2026 4:00:00 PM","Oct 1, 2026 6:00:00 PM",open gym; they will be in and out
 New Life Church - College,Clay Gym,"Oct 2, 2026 5:00:00 PM","Oct 2, 2026 9:00:00 PM",
