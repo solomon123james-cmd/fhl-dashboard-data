@@ -421,12 +421,17 @@ function renderGroups(rows) {
       (onSite    ? '<span class="badge active">On site</span>' : '');
     const catBadges = g.categories.map(c => '<span class="badge">' + esc(c) + '</span>').join('');
     const title = g.BookingName || g.OrgName;
-    const actualNum = parseInt(g.ActualNumber);
+    const actualNum = parseInt(g.ActualNumber) || 0;
+    const expectedNum = parseInt(g.ExpectedNumber || g.EstimatedNumber || g.Expected) || 0;
+    const counts = [
+      expectedNum > 0 ? 'Expected: ' + expectedNum : '',
+      actualNum > 0 ? 'Actual: ' + actualNum : '',
+    ].filter(Boolean).join(' &middot; ');
     html +=
       '<div class="card">' +
         '<div class="card-title">' + esc(title) + '</div>' +
         (g.BookingName ? '<div class="card-sub">' + esc(g.OrgName) + '</div>' : '') +
-        (!isNaN(actualNum) && actualNum > 0 ? '<div class="card-sub">' + actualNum + ' attendees</div>' : '') +
+        (counts ? '<div class="card-sub">' + counts + '</div>' : '') +
         '<div class="card-sub">Arrival: ' + fmtDate(arr) + (g.ArrivalTime ? ' ' + fmtTime(parseDate(g.ArrivalTime)) : '') + '</div>' +
         '<div class="card-sub">Departure: ' + fmtDate(dep) + (g.DepartureTime ? ' ' + fmtTime(parseDate(g.DepartureTime)) : '') + '</div>' +
         '<div class="badges">' + statusBadges + catBadges + '</div>' +
