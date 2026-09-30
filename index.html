@@ -392,7 +392,7 @@ function lookupBooking(bookings, orgName, date) {
 }
 
 function renderGroups(rows) {
-  const now = new Date(), limit = addDays(todayET(), 14);
+  const now = new Date(), limit = addDays(todayET(), 28);
   const map = {};
   for (const row of rows) {
     const key = row.OrgName + '||' + (row.ArrivalDate || '');
@@ -405,7 +405,7 @@ function renderGroups(rows) {
   }).sort((a, b) => parseDate(a.ArrivalDate) - parseDate(b.ArrivalDate));
 
   const panel = document.getElementById('panel-groups');
-  if (!groups.length) { panel.innerHTML = '<div class="empty">No groups in the next 14 days.</div>'; return; }
+  if (!groups.length) { panel.innerHTML = '<div class="empty">No groups in the next 4 weeks.</div>'; return; }
 
   let html = '', lastDate = null;
   for (const g of groups) {
@@ -481,14 +481,14 @@ function renderAllergyBubbles(dr, fa, mi) {
 }
 
 function renderMeals(rows, bookings) {
-  const now = new Date(), limit = addDays(todayET(), 14);
+  const now = new Date(), limit = addDays(todayET(), 28);
   const visible = rows.filter(r => {
     const d = parseDate(r.MealDateTime);
     return d && d >= now && d <= limit;
   }).sort((a, b) => parseDate(a.MealDateTime) - parseDate(b.MealDateTime));
 
   const panel = document.getElementById('panel-meals');
-  if (!visible.length) { panel.innerHTML = '<div class="empty">No meals in the next 14 days.</div>'; return; }
+  if (!visible.length) { panel.innerHTML = '<div class="empty">No meals in the next 4 weeks.</div>'; return; }
 
   let html = '', lastDate = null;
   for (const m of visible) {
@@ -511,7 +511,7 @@ function renderMeals(rows, bookings) {
 }
 
 function renderResources(rows) {
-  const now = new Date(), limit = addDays(todayET(), 14);
+  const now = new Date(), limit = addDays(todayET(), 28);
   const visible = rows.filter(r => {
     const s = parseDate(r.ResStartDateTime), e = parseDate(r.ResEndDateTime);
     return s && e && e >= now && s <= limit;
@@ -522,7 +522,7 @@ function renderResources(rows) {
 }
 
 function renderResourceList(rows, label) {
-  if (!rows.length) return '<div class="empty">No ' + label + ' booked in the next 14 days.</div>';
+  if (!rows.length) return '<div class="empty">No ' + label + ' booked in the next 4 weeks.</div>';
   let html = '', lastDate = null;
   for (const r of rows) {
     const s = parseDate(r.ResStartDateTime), e = parseDate(r.ResEndDateTime);
