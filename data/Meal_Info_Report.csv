@@ -1,49 +1,36 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-The Navigators,Dinner,"Oct 1, 2026 5:00:00 PM",,,,
 The Navigators,Breakfast,"Oct 2, 2026 8:00:00 AM",,,,
 The Navigators,Lunch,"Oct 2, 2026 12:00:00 PM",,,,
 The Navigators,Dinner,"Oct 2, 2026 5:00:00 PM",,,,
 The Navigators,Breakfast,"Oct 3, 2026 8:00:00 AM",,,,
 New Life Church Ann Arbor,Breakfast,"Oct 3, 2026 8:30:00 AM",,"7 gf (1 celiac disease)
 4 veg
-4 dairy free/lactose intolerant
-a few peanut and tree nut allergies
-1 kiwi?",,
+4 dairy free/lactose intolerant",,
 The Navigators,Lunch,"Oct 3, 2026 12:00:00 PM",,,,
 New Life Church Ann Arbor,Lunch,"Oct 3, 2026 12:30:00 PM",,"7 gf (1 celiac disease)
 4 veg
-4 dairy free/lactose intolerant
-a few peanut and tree nut allergies
-1 kiwi?",,
+4 dairy free/lactose intolerant",,
 The Navigators,Dinner,"Oct 3, 2026 5:00:00 PM",,,,
 New Life Church Ann Arbor,Dinner,"Oct 3, 2026 5:30:00 PM",,"7 gf (1 celiac disease)
 4 veg
-4 dairy free/lactose intolerant
-a few peanut and tree nut allergies
-1 kiwi?",,
+4 dairy free/lactose intolerant",,
 New Life Church Ann Arbor,Breakfast,"Oct 4, 2026 8:00:00 AM",,"7 gf (1 celiac disease)
 4 veg
-4 dairy free/lactose intolerant
-a few peanut and tree nut allergies
-1 kiwi?",,
+4 dairy free/lactose intolerant",,
 The Navigators,Breakfast,"Oct 4, 2026 8:00:00 AM",,,,
 The Navigators,Lunch,"Oct 4, 2026 12:00:00 PM",,,,
 The Navigators,Dinner,"Oct 9, 2026 5:00:00 PM",,,,
 Pontiac Church,Dinner,"Oct 9, 2026 5:00:00 PM",,,,
-Pontiac Church,Breakfast,"Oct 10, 2026 8:00:00 AM",,,,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 The Navigators,Breakfast,"Oct 10, 2026 8:00:00 AM",,,,
 Brave Ministries,Breakfast,"Oct 10, 2026 8:30:00 AM",,,,
-Pontiac Church,Lunch,"Oct 10, 2026 12:00:00 PM",,,,
 The Navigators,Lunch,"Oct 10, 2026 12:00:00 PM",,,,
 Brave Ministries,Lunch,"Oct 10, 2026 12:30:00 PM",,,,
 The Navigators,Dinner,"Oct 10, 2026 5:00:00 PM",,,,
 Brave Ministries,Dinner,"Oct 10, 2026 5:30:00 PM",,,,
 The Navigators,Breakfast,"Oct 11, 2026 8:00:00 AM",,,,
 Brave Ministries,Breakfast,"Oct 11, 2026 8:30:00 AM",,,,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 The Navigators,Lunch,"Oct 11, 2026 12:00:00 PM",,,,
-University Christian Outreach,Breakfast,"Oct 14, 2026 8:00:00 AM",,,,
-University Christian Outreach,Lunch,"Oct 14, 2026 12:00:00 PM",,,,
-University Christian Outreach,Dinner,"Oct 14, 2026 5:00:00 PM",,,,
-University Christian Outreach,Breakfast,"Oct 15, 2026 8:00:00 AM",,,,
-University Christian Outreach,Lunch,"Oct 15, 2026 12:00:00 PM",,,,
+Church of God Seventh Day,Dinner,"Oct 16, 2026 5:45:00 PM",,"No pork or shellfish
+No hamburgers",,
+Christian Renewal Ministries,Dinner,"Oct 16, 2026 6:00:00 PM",,,,
