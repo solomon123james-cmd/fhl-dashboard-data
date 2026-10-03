@@ -1,14 +1,4 @@
 BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
-New Life Church - College,Tabernacle ,"Oct 2, 2026 11:00:00 AM","Oct 4, 2026 2:00:00 PM",
-New Life Church - College,Conference Room A,"Oct 2, 2026 11:00:00 AM","Oct 4, 2026 2:00:00 PM",
-New Life Church - College,Antioch ,"Oct 2, 2026 11:00:00 AM","Oct 4, 2026 2:00:00 PM",
-New Life Church - College,Mezzanine,"Oct 2, 2026 11:00:00 AM","Oct 4, 2026 2:00:00 PM",
-New Life Church - College,Conference Cottage,"Oct 2, 2026 11:00:00 AM","Oct 4, 2026 2:00:00 PM",
-New Life Church - College,Conference Room B,"Oct 2, 2026 11:00:00 AM","Oct 4, 2026 2:00:00 PM",
-New Life Church - College,Clay Gym,"Oct 2, 2026 5:00:00 PM","Oct 2, 2026 9:00:00 PM",
-New Life Church - College,Bonfire TAB,"Oct 2, 2026 8:00:00 PM","Oct 2, 2026 10:00:00 PM",
-New Life Church - College,Bonfire RV PARK,"Oct 2, 2026 8:00:00 PM","Oct 2, 2026 10:00:00 PM",
-New Life Church - College,Bonfire FHL WAY ,"Oct 2, 2026 8:00:00 PM","Oct 2, 2026 10:00:00 PM",
 New Life Church - College,Clay Gym,"Oct 3, 2026 12:00:00 PM","Oct 3, 2026 5:30:00 PM",
 New Life Church - College,Indoor Pool and Hot tub,"Oct 3, 2026 1:00:00 PM","Oct 3, 2026 5:00:00 PM",
 New Life Church - College,Clay Gym,"Oct 3, 2026 8:30:00 PM","Oct 3, 2026 9:00:00 PM",
@@ -23,5 +13,8 @@ Chalet - Church of God 7th Day (40 men),Chalet,"Oct 16, 2026 12:00:00 AM","Oct 1
 Solid Rock Church Youth Retreat,Tabernacle ,"Oct 16, 2026 11:00:00 AM","Oct 18, 2026 2:00:00 PM",
 Christian Renewal Ministries (40 women),Island,"Oct 16, 2026 11:00:00 AM","Oct 18, 2026 2:00:00 PM",10 tables 4 chairs to a table 
 Christian Renewal Ministries (40 women),Conference Room A,"Oct 16, 2026 11:00:00 AM","Oct 18, 2026 2:00:00 PM",Hangout style for 40
-BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
 Christian Renewal Ministries (40 women),Indoor Pool and Hot tub,"Oct 16, 2026 8:30:00 PM","Oct 16, 2026 9:30:00 PM",
+Solid Rock Church Youth Retreat,Clay Gym,"Oct 17, 2026 12:00:00 PM","Oct 17, 2026 9:00:00 PM",
+Christian Renewal Ministries (40 women),Clay Gym,"Oct 17, 2026 1:00:00 PM","Oct 17, 2026 3:00:00 PM",
+Solid Rock Church Youth Retreat,Zipline ,"Oct 17, 2026 3:00:00 PM","Oct 17, 2026 5:00:00 PM",
+Christian Renewal Ministries (40 women),Indoor Pool and Hot tub,"Oct 17, 2026 8:30:00 PM","Oct 17, 2026 9:30:00 PM",
