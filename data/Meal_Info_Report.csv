@@ -1,46 +1,53 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-The Navigators,Breakfast,"Oct 3, 2026 8:00:00 AM",,,,
-New Life Church Ann Arbor,Breakfast,"Oct 3, 2026 8:30:00 AM",,"7 gf (1 celiac disease)
-4 veg
-4 dairy free/lactose intolerant",,
-The Navigators,Lunch,"Oct 3, 2026 12:00:00 PM",,,,
-New Life Church Ann Arbor,Lunch,"Oct 3, 2026 12:30:00 PM",,"7 gf (1 celiac disease)
-4 veg
-4 dairy free/lactose intolerant",,
-The Navigators,Dinner,"Oct 3, 2026 5:00:00 PM",,,,
-New Life Church Ann Arbor,Dinner,"Oct 3, 2026 5:30:00 PM",,"7 gf (1 celiac disease)
-4 veg
-4 dairy free/lactose intolerant",,
-New Life Church Ann Arbor,Breakfast,"Oct 4, 2026 8:00:00 AM",,"7 gf (1 celiac disease)
-4 veg
-4 dairy free/lactose intolerant",,
-The Navigators,Breakfast,"Oct 4, 2026 8:00:00 AM",,,,
-The Navigators,Lunch,"Oct 4, 2026 12:00:00 PM",,,,
-The Navigators,Dinner,"Oct 9, 2026 5:00:00 PM",,,,
 Pontiac Church,Dinner,"Oct 9, 2026 5:00:00 PM",,,,
-The Navigators,Breakfast,"Oct 10, 2026 8:00:00 AM",,,,
+The Navigators,Dinner,"Oct 9, 2026 5:00:00 PM",,,"1 adult — gluten-free 
+1 adult — gluten-free + dairy
+1 child — no red meat ",
+The Navigators,Breakfast,"Oct 10, 2026 8:00:00 AM",,,"1 adult — gluten-free 
+1 adult — gluten-free + dairy
+1 child — no red meat ",
 Brave Ministries,Breakfast,"Oct 10, 2026 8:30:00 AM",,,,
-The Navigators,Lunch,"Oct 10, 2026 12:00:00 PM",,,,
+The Navigators,Lunch,"Oct 10, 2026 12:00:00 PM",,,"1 adult — gluten-free 
+1 adult — gluten-free + dairy
+1 child — no red meat ",
 Brave Ministries,Lunch,"Oct 10, 2026 12:30:00 PM",,,,
-The Navigators,Dinner,"Oct 10, 2026 5:00:00 PM",,,,
+The Navigators,Dinner,"Oct 10, 2026 5:00:00 PM",,,"1 adult — gluten-free 
+1 adult — gluten-free + dairy
+1 child — no red meat ",
 Brave Ministries,Dinner,"Oct 10, 2026 5:30:00 PM",,,,
-The Navigators,Breakfast,"Oct 11, 2026 8:00:00 AM",,,,
+The Navigators,Breakfast,"Oct 11, 2026 8:00:00 AM",,,"1 adult — gluten-free 
+1 adult — gluten-free + dairy
+1 child — no red meat ",
 Brave Ministries,Breakfast,"Oct 11, 2026 8:30:00 AM",,,,
-The Navigators,Lunch,"Oct 11, 2026 12:00:00 PM",,,,
+The Navigators,Lunch,"Oct 11, 2026 12:00:00 PM",,,"1 adult — gluten-free 
+1 adult — gluten-free + dairy
+1 child — no red meat ",
 Church of God Seventh Day,Dinner,"Oct 16, 2026 5:30:00 PM",,"No pork or shellfish
 No hamburgers",,
 Christian Renewal Ministries,Dinner,"Oct 16, 2026 6:00:00 PM",,,,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Christian Renewal Ministries,Breakfast,"Oct 17, 2026 8:00:00 AM",,,,
 Solid Rock Church,Breakfast,"Oct 17, 2026 8:00:00 AM",,,,
+Christian Renewal Ministries,Breakfast,"Oct 17, 2026 8:00:00 AM",,,,
 Church of God Seventh Day,Breakfast,"Oct 17, 2026 8:00:00 AM",,"No pork or shellfish
 No hamburgers",,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Church of God Seventh Day,Lunch,"Oct 17, 2026 12:00:00 PM",,"No pork or shellfish
 No hamburgers",,
-Christian Renewal Ministries,Lunch,"Oct 17, 2026 12:00:00 PM",,,,
 Solid Rock Church,Lunch,"Oct 17, 2026 12:00:00 PM",,,,
+Christian Renewal Ministries,Lunch,"Oct 17, 2026 12:00:00 PM",,,,
 Solid Rock Church,Dinner,"Oct 17, 2026 5:00:00 PM",,,,
 Volunteer Events,Dinner,"Oct 17, 2026 5:00:00 PM",,,,
 Christian Renewal Ministries,Dinner,"Oct 17, 2026 5:30:00 PM",,,,
 Church of God Seventh Day,Dinner,"Oct 17, 2026 5:45:00 PM",,"No pork or shellfish
 No hamburgers",,
+Volunteer Events,Breakfast,"Oct 18, 2026 8:00:00 AM",,,,
+Christian Renewal Ministries,Breakfast,"Oct 18, 2026 8:00:00 AM",,,,
+Church of God Seventh Day,Breakfast,"Oct 18, 2026 8:30:00 AM",,"No pork or shellfish
+No hamburgers",,
+Volunteer Events,Lunch,"Oct 18, 2026 12:00:00 PM",,,,
+Christian Renewal Ministries,Lunch,"Oct 18, 2026 12:00:00 PM",,,,
+Volunteer Events,Dinner,"Oct 18, 2026 5:00:00 PM",,,,
+Faxon Academy,Lunch,"Oct 22, 2026 12:00:00 PM",,,,
+Faxon Academy,Dinner,"Oct 22, 2026 5:00:00 PM",,,,
+Faxon Academy,Breakfast,"Oct 23, 2026 8:00:00 AM",,,,
+Faxon Academy,Lunch,"Oct 23, 2026 12:00:00 PM",,,,
+Tab - The Samson Society,Dinner,"Oct 23, 2026 6:00:00 PM",,,,
