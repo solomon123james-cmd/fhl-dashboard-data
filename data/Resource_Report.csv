@@ -1,9 +1,6 @@
 BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
-New Life Church - College,Clay Gym,"Oct 3, 2026 12:00:00 PM","Oct 3, 2026 5:30:00 PM",
-New Life Church - College,Indoor Pool and Hot tub,"Oct 3, 2026 1:00:00 PM","Oct 3, 2026 5:00:00 PM",
-New Life Church - College,Clay Gym,"Oct 3, 2026 8:30:00 PM","Oct 3, 2026 9:00:00 PM",
-Detroit Navigators Soul Care Retreat,Island,"Oct 9, 2026 12:00:00 AM","Oct 11, 2026 11:59:59 PM",Same as previous retreat 
 Detroit Navigators Soul Care Retreat,Conference Room B,"Oct 9, 2026 12:00:00 AM","Oct 11, 2026 11:59:59 PM",
+Detroit Navigators Soul Care Retreat,Island,"Oct 9, 2026 12:00:00 AM","Oct 11, 2026 11:59:59 PM",Same as previous retreat 
 BRAVE Advance Women's Retreat 2026,Conference Room A,"Oct 9, 2026 4:00:00 PM","Oct 11, 2026 10:00:00 AM",
 BRAVE Advance Women's Retreat 2026,Chalet,"Oct 9, 2026 4:00:00 PM","Oct 11, 2026 10:00:00 AM",
 Pontiac Church Men's Retreat,Antioch ,"Oct 9, 2026 4:00:00 PM","Oct 10, 2026 1:00:00 PM",
@@ -18,3 +15,14 @@ Solid Rock Church Youth Retreat,Clay Gym,"Oct 17, 2026 12:00:00 PM","Oct 17, 202
 Christian Renewal Ministries (40 women),Clay Gym,"Oct 17, 2026 1:00:00 PM","Oct 17, 2026 3:00:00 PM",
 Solid Rock Church Youth Retreat,Zipline ,"Oct 17, 2026 3:00:00 PM","Oct 17, 2026 5:00:00 PM",
 Christian Renewal Ministries (40 women),Indoor Pool and Hot tub,"Oct 17, 2026 8:30:00 PM","Oct 17, 2026 9:30:00 PM",
+Faxon Global Scholars Leadership ,Conference Room B,"Oct 22, 2026 10:00:00 AM","Oct 23, 2026 10:00:00 AM",
+Faxon Global Scholars Leadership ,Clay Gym,"Oct 22, 2026 2:00:00 PM","Oct 22, 2026 4:00:00 PM",
+Faxon Global Scholars Leadership ,Zipline ,"Oct 22, 2026 2:15:00 PM","Oct 22, 2026 4:15:00 PM",
+Faxon Global Scholars Leadership ,Indoor Pool and Hot tub,"Oct 22, 2026 2:30:00 PM","Oct 22, 2026 4:30:00 PM",
+Faxon Global Scholars Leadership ,Clay Gym,"Oct 22, 2026 6:00:00 PM","Oct 22, 2026 8:00:00 PM",
+Tab - The Samson Society (188 Men),Mezzanine,"Oct 23, 2026 12:00:00 AM","Oct 25, 2026 11:59:59 PM",
+Tab - The Samson Society (188 Men),Tabernacle ,"Oct 23, 2026 12:00:00 AM","Oct 25, 2026 11:59:59 PM",
+BookingName,ResourceName,ResStartDateTime,ResEndDateTime,ResNotes
+Tab - The Samson Society (188 Men),Conference Room A,"Oct 23, 2026 12:00:00 AM","Oct 25, 2026 11:59:59 PM",
+Tab - The Samson Society (188 Men),Conference Room B,"Oct 23, 2026 1:00:00 PM","Oct 25, 2026 1:00:00 PM",
+Mezz-Desmyther family ,Mezzanine,"Oct 24, 2026 12:00:00 AM","Oct 24, 2026 11:59:59 PM",
