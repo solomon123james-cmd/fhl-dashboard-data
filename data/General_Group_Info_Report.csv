@@ -1,7 +1,4 @@
 OrgName,BookingName,ExpectedNumber,ActualNumber,ArrivalDate,ArrivalTime,DepartureDate,DepartureTime,AttendeeCategory
-Pontiac Church,Pontiac Church Men's Retreat,20,,"Oct 9, 2026",4:00:00 PM,"Oct 10, 2026",1:00:00 PM,
-Brave Ministries,BRAVE Advance Women's Retreat 2026,25,,"Oct 9, 2026",4:00:00 PM,"Oct 11, 2026",10:00:00 AM,
-The Navigators,Detroit Navigators Soul Care Retreat,35,,"Oct 9, 2026",12:00:00 PM,"Oct 11, 2026",1:00:00 PM,
 Staff ,Buchan Family ,3,,"Oct 16, 2026",12:00:00 AM,"Oct 19, 2026",11:59:00 PM,Adults
 Solid Rock Church,Solid Rock Church Youth Retreat,38,,"Oct 16, 2026",12:00:00 AM,"Oct 18, 2026",11:59:00 PM,
 Christian Renewal Ministries,Christian Renewal Ministries (40 women),40,,"Oct 16, 2026",12:00:00 AM,"Oct 18, 2026",11:59:59 PM,
@@ -10,3 +7,4 @@ Volunteer Events,Freedom Christian Volunteer event,16,,"Oct 17, 2026",12:00:00 A
 R&R Bookings,Pastor's Cottage - David & Kristen Speer,2,,"Oct 19, 2026",4:00:00 PM,"Oct 31, 2026",11:00:00 AM,
 Faxon Academy,Faxon Global Scholars Leadership ,25,,"Oct 22, 2026",10:00:00 AM,"Oct 23, 2026",1:00:00 PM,
 Tab - The Samson Society,Tab - The Samson Society (188 Men),188,,"Oct 23, 2026",12:00:00 AM,"Oct 25, 2026",11:59:00 PM,
+Staff ,Mezz-Desmyther family ,35,,"Oct 24, 2026",12:00:00 AM,"Oct 24, 2026",11:59:00 PM,
