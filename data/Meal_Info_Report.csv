@@ -1,16 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-The Navigators,Breakfast,"Oct 10, 2026 8:00:00 AM",,,"1 adult — gluten-free 
-1 adult — gluten-free + dairy
-1 child — no red meat ",
-Brave Ministries,Breakfast,"Oct 10, 2026 8:30:00 AM",,,,
-The Navigators,Lunch,"Oct 10, 2026 12:00:00 PM",,,"1 adult — gluten-free 
-1 adult — gluten-free + dairy
-1 child — no red meat ",
-Brave Ministries,Lunch,"Oct 10, 2026 12:30:00 PM",,,,
-The Navigators,Dinner,"Oct 10, 2026 5:00:00 PM",,,"1 adult — gluten-free 
-1 adult — gluten-free + dairy
-1 child — no red meat ",
-Brave Ministries,Dinner,"Oct 10, 2026 5:30:00 PM",,,,
 The Navigators,Breakfast,"Oct 11, 2026 8:00:00 AM",,,"1 adult — gluten-free 
 1 adult — gluten-free + dairy
 1 child — no red meat ",
@@ -29,9 +17,8 @@ Church of God Seventh Day,Lunch,"Oct 17, 2026 12:00:00 PM",,"No pork or shellfis
 No hamburgers",,
 Solid Rock Church,Lunch,"Oct 17, 2026 12:00:00 PM",,,,
 Christian Renewal Ministries,Lunch,"Oct 17, 2026 12:00:00 PM",,,,
-Volunteer Events,Dinner,"Oct 17, 2026 5:00:00 PM",,,,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Solid Rock Church,Dinner,"Oct 17, 2026 5:00:00 PM",,,,
+Volunteer Events,Dinner,"Oct 17, 2026 5:00:00 PM",,,,
 Christian Renewal Ministries,Dinner,"Oct 17, 2026 5:30:00 PM",,,,
 Church of God Seventh Day,Dinner,"Oct 17, 2026 5:45:00 PM",,"No pork or shellfish
 No hamburgers",,
@@ -39,14 +26,16 @@ Volunteer Events,Breakfast,"Oct 18, 2026 8:00:00 AM",,,,
 Christian Renewal Ministries,Breakfast,"Oct 18, 2026 8:00:00 AM",,,,
 Church of God Seventh Day,Breakfast,"Oct 18, 2026 8:30:00 AM",,"No pork or shellfish
 No hamburgers",,
-Volunteer Events,Lunch,"Oct 18, 2026 12:00:00 PM",,,,
 Christian Renewal Ministries,Lunch,"Oct 18, 2026 12:00:00 PM",,,,
+Volunteer Events,Lunch,"Oct 18, 2026 12:00:00 PM",,,,
 Volunteer Events,Dinner,"Oct 18, 2026 5:00:00 PM",,,,
 Faxon Academy,Lunch,"Oct 22, 2026 12:00:00 PM",,,,
 Faxon Academy,Dinner,"Oct 22, 2026 5:00:00 PM",,,,
 Faxon Academy,Breakfast,"Oct 23, 2026 8:00:00 AM",,,,
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Faxon Academy,Lunch,"Oct 23, 2026 12:00:00 PM",,,,
 Tab - The Samson Society,Dinner,"Oct 23, 2026 6:00:00 PM",,,,
 Tab - The Samson Society,Breakfast,"Oct 24, 2026 8:00:00 AM",,,,
 Tab - The Samson Society,Lunch,"Oct 24, 2026 12:00:00 PM",,,,
 Tab - The Samson Society,Dinner,"Oct 24, 2026 5:00:00 PM",,,,
+Tab - The Samson Society,Breakfast,"Oct 25, 2026 8:00:00 AM",,,,
