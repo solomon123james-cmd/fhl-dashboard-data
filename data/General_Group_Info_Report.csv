@@ -1,11 +1,16 @@
 OrgName,BookingName,ExpectedNumber,ActualNumber,ArrivalDate,ArrivalTime,DepartureDate,DepartureTime,AttendeeCategory
+Women's Water Aerobics,Water Aerobics 2026,10,,"Oct 15, 2026",10:00:00 AM,"Oct 15, 2026",12:00:00 PM,
 Staff ,Buchan Family ,3,,"Oct 16, 2026",12:00:00 AM,"Oct 19, 2026",11:59:00 PM,Adults
 Volunteer Events,Freedom Christian Volunteer event,16,,"Oct 16, 2026",12:00:00 AM,"Oct 17, 2026",11:59:59 PM,
 Solid Rock Church,Solid Rock Church Youth Retreat,38,,"Oct 16, 2026",12:00:00 AM,"Oct 18, 2026",11:59:00 PM,
-Christian Renewal Ministries,Christian Renewal Ministries (40 women),40,,"Oct 16, 2026",12:00:00 AM,"Oct 18, 2026",11:59:59 PM,
-Church of God Seventh Day,Chalet - Church of God 7th Day (40 men),40,,"Oct 16, 2026",12:00:00 AM,"Oct 18, 2026",11:59:00 PM,
+Christian Renewal Ministries,Christian Renewal Ministries ,40,,"Oct 16, 2026",12:00:00 AM,"Oct 18, 2026",11:59:59 PM,
+Church of God Seventh Day,Chalet - Church of God 7th Day,40,,"Oct 16, 2026",12:00:00 AM,"Oct 18, 2026",11:59:59 PM,
 R&R Bookings,Pastor's Cottage - David & Kristen Speer,2,,"Oct 19, 2026",4:00:00 PM,"Oct 31, 2026",11:00:00 AM,
+Women's Water Aerobics,Water Aerobics 2026,10,,"Oct 20, 2026",7:00:00 PM,"Oct 20, 2026",9:00:00 PM,
 Faxon Academy,Faxon Global Scholars Leadership ,25,,"Oct 22, 2026",10:00:00 AM,"Oct 23, 2026",1:00:00 PM,
+Women's Water Aerobics,Water Aerobics 2026,10,,"Oct 22, 2026",10:00:00 AM,"Oct 22, 2026",12:00:00 PM,
 Tab - The Samson Society,Tab - The Samson Society (188 Men),188,,"Oct 23, 2026",12:00:00 AM,"Oct 25, 2026",11:59:00 PM,
 Staff ,Mezz-Desmyther family ,35,,"Oct 24, 2026",12:00:00 AM,"Oct 24, 2026",11:59:00 PM,
 R&R Bookings,R&R - Brandon Burger,1,,"Oct 25, 2026",4:00:00 PM,"Oct 27, 2026",12:00:00 PM,
+Women's Water Aerobics,Water Aerobics 2026,10,,"Oct 27, 2026",7:00:00 PM,"Oct 27, 2026",9:00:00 PM,
+Women's Water Aerobics,Water Aerobics 2026,10,,"Oct 29, 2026",10:00:00 AM,"Oct 29, 2026",12:00:00 PM,
