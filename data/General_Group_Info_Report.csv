@@ -1,6 +1,4 @@
 OrgName,BookingName,ExpectedNumber,ActualNumber,ArrivalDate,ArrivalTime,DepartureDate,DepartureTime,AttendeeCategory
-Faxon Academy,Faxon Global Scholars Leadership ,25,,"Oct 22, 2026",10:00:00 AM,"Oct 23, 2026",1:00:00 PM,
-Women's Water Aerobics,Water Aerobics 2026,10,,"Oct 22, 2026",10:00:00 AM,"Oct 22, 2026",12:00:00 PM,
 Tab - The Samson Society,Tab - The Samson Society (188 Men),188,,"Oct 23, 2026",12:00:00 AM,"Oct 25, 2026",11:59:00 PM,
 Staff ,Mezz-Desmyther family ,35,,"Oct 24, 2026",12:00:00 AM,"Oct 24, 2026",11:59:00 PM,
 R&R Bookings,R&R - Brandon Burger,1,,"Oct 25, 2026",4:00:00 PM,"Oct 27, 2026",12:00:00 PM,
@@ -10,3 +8,6 @@ Little Flock,Little Flock Prayer Summit,60,,"Oct 31, 2026",11:00:00 AM,"Nov 1, 2
 Day Contract,Growing Together - Homeschool Group 2026 - 2027,20,,"Nov 2, 2026",2:00:00 PM,"Nov 2, 2026",4:00:00 PM,
 Women's Water Aerobics,Water Aerobics 2026,10,,"Nov 3, 2026",7:00:00 PM,"Nov 3, 2026",9:00:00 PM,
 Women's Water Aerobics,Water Aerobics 2026,10,,"Nov 5, 2026",10:00:00 AM,"Nov 5, 2026",12:00:00 PM,
+Ironman Network,Ironman Network Retreat,15,,"Nov 6, 2026",4:00:00 PM,"Nov 8, 2026",1:00:00 PM,
+Boy Scouts,Volunteer Retreat (Troop 4312) ,16,,"Nov 6, 2026",12:00:00 AM,"Nov 8, 2026",11:59:00 PM,
+Shalom Lutheran Church,Men of Shalom Retreat,25,,"Nov 6, 2026",4:00:00 PM,"Nov 7, 2026",1:00:00 PM,
