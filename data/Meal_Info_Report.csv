@@ -1,16 +1,6 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Faxon Academy,Lunch,"Oct 22, 2026, 12:00:00 PM",,"NO NUTS
+Faxon Academy,Breakfast,"Oct 23, 2026, 8:00:00 AM",,"NO NUTS
 No cheese or fish: 1",,
-Faxon Academy,Dinner,"Oct 22, 2026, 5:00:00 PM",,"NO NUTS
-No cheese or fish: 1",,
-Tab - The Samson Society,Dinner,"Oct 22, 2026, 5:00:00 PM",,,"Here are our dietary restrictions:
-Juan Cabral - Dairy Free
-Paul Hoshiko - Dairy and Gluten Free
-Randall Potter - Gluten Free
-Steve France - Gluten Free
-Zack Brandes - Diabetic
-Daniel McHugh - Gluten Free
-",
 Tab - The Samson Society,Breakfast,"Oct 23, 2026, 8:00:00 AM",,,"Here are our dietary restrictions:
 Juan Cabral - Dairy Free
 Paul Hoshiko - Dairy and Gluten Free
@@ -19,10 +9,6 @@ Steve France - Gluten Free
 Zack Brandes - Diabetic
 Daniel McHugh - Gluten Free
 ",
-Faxon Academy,Breakfast,"Oct 23, 2026, 8:00:00 AM",,"NO NUTS
-No cheese or fish: 1",,
-Faxon Academy,Lunch,"Oct 23, 2026, 12:00:00 PM",,"NO NUTS
-No cheese or fish: 1",,
 Tab - The Samson Society,Lunch,"Oct 23, 2026, 12:00:00 PM",,,"Here are our dietary restrictions:
 Juan Cabral - Dairy Free
 Paul Hoshiko - Dairy and Gluten Free
@@ -31,7 +17,8 @@ Steve France - Gluten Free
 Zack Brandes - Diabetic
 Daniel McHugh - Gluten Free
 ",
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
+Faxon Academy,Lunch,"Oct 23, 2026, 12:00:00 PM",,"NO NUTS
+No cheese or fish: 1",,
 Tab - The Samson Society,Dinner,"Oct 23, 2026, 5:00:00 PM",,,"Here are our dietary restrictions:
 Juan Cabral - Dairy Free
 Paul Hoshiko - Dairy and Gluten Free
@@ -40,6 +27,7 @@ Steve France - Gluten Free
 Zack Brandes - Diabetic
 Daniel McHugh - Gluten Free
 ",
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Tab - The Samson Society,Breakfast,"Oct 24, 2026, 8:00:00 AM",,,"Here are our dietary restrictions:
 Juan Cabral - Dairy Free
 Paul Hoshiko - Dairy and Gluten Free
@@ -56,7 +44,6 @@ Steve France - Gluten Free
 Zack Brandes - Diabetic
 Daniel McHugh - Gluten Free
 ",
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Tab - The Samson Society,Dinner,"Oct 24, 2026, 5:00:00 PM",,,"Here are our dietary restrictions:
 Juan Cabral - Dairy Free
 Paul Hoshiko - Dairy and Gluten Free
@@ -65,6 +52,7 @@ Steve France - Gluten Free
 Zack Brandes - Diabetic
 Daniel McHugh - Gluten Free
 ",
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Tab - The Samson Society,Breakfast,"Oct 25, 2026, 8:00:00 AM",,,"Here are our dietary restrictions:
 Juan Cabral - Dairy Free
 Paul Hoshiko - Dairy and Gluten Free
@@ -78,3 +66,6 @@ Little Flock,Dinner,"Oct 31, 2026, 5:00:00 PM",,,,
 Little Flock,Breakfast,"Nov 1, 2026, 8:00:00 AM",,,,
 Little Flock,Lunch,"Nov 1, 2026, 12:00:00 PM",,,,
 Little Flock,Dinner,"Nov 1, 2026, 5:00:00 PM",,,,
+Shalom Lutheran Church,Dinner,"Nov 6, 2026, 5:00:00 PM",,,,
+Ironman Network,Dinner,"Nov 6, 2026, 5:00:00 PM",,,,
+Boy Scouts,Dinner,"Nov 6, 2026, 5:00:00 PM",,,,
