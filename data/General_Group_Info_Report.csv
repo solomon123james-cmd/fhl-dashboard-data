@@ -1,5 +1,4 @@
 OrgName,BookingName,ExpectedNumber,ActualNumber,ArrivalDate,ArrivalTime,DepartureDate,DepartureTime,AttendeeCategory
-Staff ,Mezz-Desmyther family ,35,,"Oct 24, 2026",12:00:00 AM,"Oct 24, 2026",11:59:00 PM,
 R&R Bookings,R&R - Brandon Burger,1,,"Oct 25, 2026",4:00:00 PM,"Oct 27, 2026",12:00:00 PM,
 Women's Water Aerobics,Water Aerobics 2026,10,,"Oct 27, 2026",7:00:00 PM,"Oct 27, 2026",9:00:00 PM,
 Women's Water Aerobics,Water Aerobics 2026,10,,"Oct 29, 2026",10:00:00 AM,"Oct 29, 2026",12:00:00 PM,
@@ -11,3 +10,4 @@ Shalom Lutheran Church,Men of Shalom Retreat,25,17,"Nov 6, 2026",4:00:00 PM,"Nov
 Ironman Network,Ironman Network Retreat,15,,"Nov 6, 2026",5:00:00 PM,"Nov 8, 2026",2:30:00 PM,
 Boy Scouts,Volunteer Retreat (Troop 4312) ,16,,"Nov 6, 2026",12:00:00 AM,"Nov 8, 2026",11:59:00 PM,
 Resident Reservation,Chalet - Linda Carne,75,,"Nov 7, 2026",11:00:00 AM,"Nov 7, 2026",4:00:00 PM,
+R&R Bookings,Dennis Baby Shower,,,"Nov 8, 2026",12:00:00 AM,"Nov 8, 2026",11:59:59 PM,
