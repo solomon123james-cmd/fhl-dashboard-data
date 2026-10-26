@@ -1,12 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Tab - The Samson Society,Breakfast,"Oct 25, 2026, 8:00:00 AM",,,"Here are our dietary restrictions:
-Juan Cabral - Dairy Free
-Paul Hoshiko - Dairy and Gluten Free
-Randall Potter - Gluten Free
-Steve France - Gluten Free
-Zack Brandes - Diabetic
-Daniel McHugh - Gluten Free
-",
 Little Flock,Lunch,"Oct 31, 2026, 12:00:00 PM",,"1Gluten, 2 Nuts, 1 egg, 1 Seafood, 1 Lactose intolerance","2 nuts, 1 egg, 1 seafood",
 Little Flock,Dinner,"Oct 31, 2026, 5:00:00 PM",,"1Gluten, 2 Nuts, 1 egg, 1 Seafood, 1 Lactose intolerance","2 nuts, 1 egg, 1 seafood",
 Little Flock,Breakfast,"Nov 1, 2026, 8:00:00 AM",,"1Gluten, 2 Nuts, 1 egg, 1 Seafood, 1 Lactose intolerance","2 nuts, 1 egg, 1 seafood",
@@ -25,5 +17,4 @@ Boy Scouts,Dinner,"Nov 7, 2026, 5:00:00 PM",,,,
 Ironman Network,Dinner,"Nov 7, 2026, 5:00:00 PM",,,"1 nuts & seafood, 1 beef & pork",
 Ironman Network,Breakfast,"Nov 8, 2026, 8:00:00 AM",,,"1 nuts & seafood, 1 beef & pork",
 Boy Scouts,Breakfast,"Nov 8, 2026, 8:00:00 AM",,,,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Ironman Network,Lunch,"Nov 8, 2026, 12:00:00 PM",,,"1 nuts & seafood, 1 beef & pork",
