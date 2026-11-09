@@ -1,7 +1,4 @@
 OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
-Ironman Network,Breakfast,"Nov 8, 2026, 8:00:00 AM",,,"1 nuts & seafood, 1 beef, 2 pork",
-Boy Scouts,Breakfast,"Nov 8, 2026, 8:00:00 AM",,,,
-Ironman Network,Lunch,"Nov 8, 2026, 12:00:00 PM",,,"1 nuts & seafood, 1 beef, 2 pork",
 Summit Church,Lunch,"Nov 13, 2026, 12:00:00 PM",,,,
 Summit Church,Breakfast,"Nov 14, 2026, 8:00:00 AM",,,,
 New Life Church Ann Arbor,Breakfast,"Nov 14, 2026, 8:00:00 AM",,,,
@@ -18,7 +15,7 @@ wheat, nuts, sesame, soy, spinach, kale, sodium benzoate, pinto and refried bean
 University Christian Outreach,Breakfast,"Nov 15, 2026, 8:00:00 AM",,"No bananas, no nuts","1 person allergic to the following:
 wheat, nuts, sesame, soy, spinach, kale, sodium benzoate, pinto and refried beans, chickpeas",
 Summit Church,Breakfast,"Nov 15, 2026, 8:00:00 AM",,,,
-OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 University Christian Outreach,Lunch,"Nov 15, 2026, 12:00:00 PM",,"No bananas, no nuts","1 person allergic to the following:
 wheat, nuts, sesame, soy, spinach, kale, sodium benzoate, pinto and refried beans, chickpeas",
+OrgName,MealTypeName,MealDateTime,MealNotes,DietaryRequests,FoodAllergies,MealInstructions
 Staff Reservations,Lunch,"Nov 16, 2026, 12:00:00 PM",,,,
